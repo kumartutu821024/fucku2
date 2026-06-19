@@ -257,7 +257,7 @@
       </button>
 
       <!-- Video projection screens -->
-      <div class="flex-1 bg-black aspect-video flex items-center justify-center relative overflow-hidden self-center w-full">
+      <div id="video-player-container" class="flex-1 bg-black aspect-video flex items-center justify-center relative overflow-hidden self-center w-full group/video">
         <!-- Interactive Iframe element -->
         <iframe 
           id="modal-video-iframe" 
@@ -266,6 +266,15 @@
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
           allowfullscreen
         ></iframe>
+
+        <!-- Custom Fullscreen Button (Overlaid) -->
+        <button
+          id="modal-fullscreen-btn"
+          class="absolute bottom-4 right-4 z-30 w-10 h-10 rounded-xl bg-black/60 text-white border border-white/10 backdrop-blur-md flex items-center justify-center opacity-0 group-hover/video:opacity-100 transition-all active:scale-90 hidden"
+          title="फुल स्क्रीन"
+        >
+          <i data-lucide="maximize" class="w-5 h-5"></i>
+        </button>
 
         <!-- Video player status visual mask -->
         <div id="modal-video-overlay" class="absolute inset-0 bg-[#12151C] flex flex-col items-center justify-center p-6 text-center select-none">
