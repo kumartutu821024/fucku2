@@ -1427,19 +1427,54 @@ function initModal() {
   const closeBtn = document.getElementById('modal-close-btn');
   const iframe = document.getElementById('modal-video-iframe');
   const overlay = document.getElementById('modal-video-overlay');
-  
+  const fsBtn = document.getElementById('modal-fullscreen-btn');
+  const videoContainer = document.getElementById('video-player-container');
+
   const closeModal = () => {
     if (!modal) return;
     modal.classList.add('opacity-0');
+    if (document.fullscreenElement) {
+      document.exitFullscreen().catch(() => {});
+    }
     setTimeout(() => {
       modal.classList.add('hidden');
       if (iframe) iframe.src = '';
       if (iframe) iframe.classList.add('hidden');
       if (overlay) overlay.classList.remove('hidden');
+      if (fsBtn) fsBtn.classList.add('hidden');
     }, 300);
   };
   
+  const toggleFullScreen = async () => {
+    if (!videoContainer) return;
+
+    try {
+      if (!document.fullscreenElement) {
+        if (videoContainer.requestFullscreen) {
+          await videoContainer.requestFullscreen();
+        } else if (videoContainer.webkitRequestFullscreen) {
+          await videoContainer.webkitRequestFullscreen();
+        }
+
+        // Auto rotate to landscape on mobile
+        if (screen.orientation && screen.orientation.lock) {
+          screen.orientation.lock('landscape').catch(err => {
+            console.warn("Orientation lock ignored:", err);
+          });
+        }
+      } else {
+        if (document.exitFullscreen) {
+          await document.exitFullscreen();
+        }
+      }
+    } catch (err) {
+      console.error("Fullscreen error:", err);
+    }
+  };
+
   if (closeBtn) closeBtn.addEventListener('click', closeModal);
+  if (fsBtn) fsBtn.addEventListener('click', toggleFullScreen);
+
   if (modal) {
     modal.addEventListener('click', (e) => {
       if (e.target === modal) {
@@ -1447,6 +1482,15 @@ function initModal() {
       }
     });
   }
+
+  // Handle fullscreen icon change
+  document.addEventListener('fullscreenchange', () => {
+    if (fsBtn) {
+      const icon = document.fullscreenElement ? 'minimize' : 'maximize';
+      fsBtn.innerHTML = `<i data-lucide="${icon}" class="w-5 h-5"></i>`;
+      lucide.createIcons();
+    }
+  });
 
   // Also catch Esc key press
   document.addEventListener('keydown', (e) => {
@@ -1461,6 +1505,7 @@ async function projectVideoModal(item) {
   const modal = document.getElementById('video-player-modal');
   const iframe = document.getElementById('modal-video-iframe');
   const overlay = document.getElementById('modal-video-overlay');
+  const fsBtn = document.getElementById('modal-fullscreen-btn');
   const titleEl = document.getElementById('modal-title');
   const badgeEl = document.getElementById('modal-badge');
   const sdBtn = document.getElementById('server-sd-btn');
@@ -1481,7 +1526,8 @@ async function projectVideoModal(item) {
     iframe.src = '';
     iframe.classList.add('hidden');
   }
-  
+  if (fsBtn) fsBtn.classList.add('hidden');
+
   // Disable playback triggers while loading state is active
   if (sdBtn) {
     sdBtn.disabled = true;
@@ -1544,6 +1590,7 @@ async function projectVideoModal(item) {
       iframe.src = embedUrl;
       iframe.classList.remove('hidden');
     }
+    if (fsBtn) fsBtn.classList.remove('hidden');
     showToast("स्ट्रीमिंग शुरू की गई। आनंद लें!", "success");
   };
   
