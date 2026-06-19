@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="hi" class="dark scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KGS Stream - Khan Global Studies</title>
+  
+  <!-- Tailwind CSS v3 CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            'brand-orange': '#FF6B00',
+            'brand-orange-light': '#FF9500',
+            'brand-blue': '#007AFF',
+            'brand-blue-light': '#3399FF'
+          },
+          fontFamily: {
+            'sans': ['Inter', 'ui-sans-serif', 'system-ui', '-apple-system', 'sans-serif'],
+            'display': ['Space Grotesk', 'sans-serif']
+          }
+        }
+      }
+    }
+  </script>
+  
+  <!-- Custom Style file -->
+  <link rel="stylesheet" href="css/style.css">
+  
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body class="min-h-screen bg-slate-50 dark:bg-[#0B0E14] text-slate-800 dark:text-white transition-colors duration-300 antialiased font-sans flex flex-col lg:flex-row p-0 md:p-4 gap-4 pb-20 lg:pb-4 selection:bg-brand-orange/35 overflow-x-hidden">
+
+  <!-- Mobile Sidebar Overlay -->
+  <div id="mobile-sidebar-overlay" class="fixed inset-0 bg-black/60 backdrop-blur-sm z-[60] hidden lg:hidden opacity-0 transition-opacity duration-300"></div>
+
+  <!-- Left Sidebar -->
+  <aside id="app-sidebar" class="fixed lg:sticky top-0 lg:top-4 left-0 w-72 lg:w-64 h-full lg:h-[calc(100vh-2rem)] flex flex-col shrink-0 -translate-x-full lg:translate-x-0 lg:flex z-[70] transition-transform duration-300 rounded-r-3xl lg:rounded-3xl bg-white dark:bg-[#12151C] shadow-2xl p-6 border border-slate-200/50 dark:border-white/10 justify-between select-none">
+    <div class="overflow-y-auto pr-2 custom-scrollbar">
+      <!-- Close button for mobile -->
+      <button id="close-sidebar-btn" class="lg:hidden absolute top-4 right-4 p-2 text-slate-400">
+        <i data-lucide="x" class="w-6 h-6"></i>
+      </button>
+
+      <!-- Brand Logo Header -->
+      <div class="flex items-center space-x-3 pb-6 border-b border-slate-100 dark:border-white/10">
+        <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-[#007AFF] to-[#FF6B00] p-0.5 shadow-lg relative group overflow-hidden flex items-center justify-center text-white font-display font-black text-xl">
+          <span class="relative z-10">K</span>
+          <div class="absolute inset-0 bg-[#FF6B00] opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+        </div>
+        <div>
+          <h2 class="font-display font-bold text-base leading-tight tracking-wide text-slate-800 dark:text-white">
+            KGS Stream <span class="text-[10px] text-[#FF9500] bg-[#FF6B00]/10 px-1.5 py-0.5 rounded ml-1">v3.0</span>
+          </h2>
+          <p class="text-[10px] font-mono text-slate-400 dark:text-[#A0A0A0] mt-0.5 tracking-wider">शिक्षण ही शक्ति है</p>
+        </div>
+      </div>
+
+      <!-- Real-time statistics banner -->
+      <div class="mt-6 p-4 rounded-2xl bg-slate-50 dark:bg-white/[0.02] border border-slate-100 dark:border-white/5">
+        <div class="flex items-center space-x-2.5">
+          <div class="w-2.5 h-2.5 bg-emerald-500 rounded-full animate-ping shrink-0"></div>
+          <span class="text-[11px] font-display font-medium text-slate-600 dark:text-gray-300">9.4k+ छात्र लाइव पढ़ रहे हैं</span>
+        </div>
+        <div class="flex justify-between mt-3 text-xs border-t border-slate-100 dark:border-white/5 pt-2 text-slate-400 dark:text-[#A0A0A0]">
+          <div>
+            <span class="block font-mono font-bold text-slate-800 dark:text-white">24+</span>
+            <span class="text-[9px]">लाइव क्लासेस</span>
+          </div>
+          <div class="border-l border-slate-150 dark:border-white/10 h-6 mx-1"></div>
+          <div>
+            <span class="block font-mono font-bold text-slate-800 dark:text-white">140+</span>
+            <span class="text-[9px]">लेक्चर नोट्स</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Course Categories Panel -->
+      <div class="mt-8 space-y-1.5">
+        <label class="text-[10px] font-mono font-bold text-slate-400 dark:text-[#A0A0A0] uppercase tracking-widest block pl-3 mb-2">
+          नेविगेशन
+        </label>
+        <div id="sidebar-navigation" class="space-y-1 mb-4">
+           <button
+            onclick="window.location.hash = '#/'"
+            id="side-nav-home"
+            class="w-full flex items-center justify-between px-3.5 py-2.5 rounded-xl text-xs font-display font-medium tracking-wide transition-all duration-200 bg-brand-orange/10 dark:bg-brand-orange/15 text-brand-orange font-bold border-r-3 border-r-brand-orange"
+          >
+            <div class="flex items-center space-x-3 pointer-events-none">
+              <i data-lucide="home" class="w-4 h-4 text-brand-orange"></i>
+              <span>होम स्क्रीन</span>
+            </div>
+          </button>
+          <button
+            onclick="window.location.hash = '#/saved'"
+            id="side-nav-saved"
+            class="w-full flex items-center justify-between px-3.5 py-2.5 rounded-xl text-xs font-display font-medium tracking-wide transition-all duration-200 text-slate-600 dark:text-[#A0A0A0] hover:bg-slate-100 dark:hover:bg-white/[0.04] hover:text-slate-900 dark:hover:text-white border border-transparent"
+          >
+            <div class="flex items-center space-x-3 pointer-events-none">
+              <i data-lucide="star" class="w-4 h-4 text-slate-400 dark:text-[#A0A0A0]"></i>
+              <span>सेव किए गए बैच</span>
+            </div>
+            <span id="saved-count-badge" class="text-[9px] px-1.5 py-0.5 rounded-full bg-slate-100 dark:bg-white/5 text-slate-400 font-mono font-bold">0</span>
+          </button>
+        </div>
+
+        <label class="text-[10px] font-mono font-bold text-slate-400 dark:text-[#A0A0A0] uppercase tracking-widest block pl-3 mb-2">
+          कोर्स श्रेणियां
+        </label>
+        <div id="sidebar-categories" class="space-y-1">
+          <!-- Active categories injected dynamically -->
+        </div>
+      </div>
+    </div>
+
+    <!-- Security Badging and footer -->
+    <div class="space-y-4 pt-6 border-t border-slate-100 dark:border-white/10">
+      <div class="p-3 bg-slate-50 dark:bg-white/[0.02] rounded-xl border border-slate-100 dark:border-white/5 flex items-center space-x-2">
+        <i data-lucide="shield-check" class="w-5 h-5 text-[#007AFF] shrink-0"></i>
+        <div class="min-w-0">
+          <h5 class="text-[11px] font-bold text-slate-800 dark:text-white truncate leading-tight">सुरक्षित भुगतान</h5>
+          <p class="text-[9px] text-slate-400 dark:text-[#A0A0A0] shrink truncate">PCI DSS अनुरुप</p>
+        </div>
+      </div>
+
+      <div class="text-center">
+        <p class="text-[9px] text-slate-400 dark:text-[#A0A0A0] font-sans">खान ग्लोबल स्टडीज © 2026</p>
+        <p class="text-[8px] text-slate-400 dark:text-[#A0A0A0] mt-1 flex items-center justify-center gap-1">
+          Made with <i data-lucide="heart" class="w-2.5 h-2.5 text-rose-500 fill-rose-500"></i> for India
+        </p>
+      </div>
+    </div>
+  </aside>
+
+  <!-- Main Content Framework -->
+  <main id="main-content" class="flex-1 flex flex-col min-w-0 px-3 md:px-0 mt-4 md:mt-0 overflow-y-auto scroll-smooth">
+    <!-- Header Utility Area -->
+    <header class="p-4 md:p-6 rounded-3xl bg-white dark:bg-[#12151C] shadow-xl border border-slate-100 dark:border-white/10 flex flex-col md:flex-row md:items-center justify-between gap-4 select-none mb-6">
+      
+      <div class="flex items-center gap-3">
+        <!-- Mobile Toggle Button -->
+        <button id="open-sidebar-btn" class="lg:hidden p-2.5 rounded-xl bg-slate-50 dark:bg-white/5 border border-slate-200 dark:border-white/10 text-slate-600 dark:text-white active:scale-95 transition-all">
+          <i data-lucide="menu" class="w-5 h-5"></i>
+        </button>
+
+        <!-- Combined Live Search Input widget -->
+        <div class="flex-1 max-w-lg relative group min-w-[200px]">
+          <div class="absolute left-4 top-1/2 -translate-y-1/2 text-slate-400 dark:text-[#A0A0A0] group-focus-within:text-brand-orange transition-colors">
+            <i data-lucide="search" class="w-4 h-4"></i>
+          </div>
+          <input
+            id="global-search-input"
+            type="text"
+            placeholder="खोजें..."
+            class="w-full bg-slate-50 dark:bg-[#1E222B] text-slate-800 dark:text-white placeholder-slate-400 dark:placeholder-gray-400 pl-11 pr-16 py-3 rounded-2xl outline-none border border-slate-100 dark:border-slate-800 focus:border-brand-orange dark:focus:border-brand-orange transition-all text-sm shadow-sm"
+          />
+          <button
+            id="clear-search-btn"
+            class="absolute hidden right-3 top-1/2 -translate-y-1/2 text-[10px] bg-slate-200 dark:bg-white/10 hover:bg-slate-300 dark:hover:bg-white/20 px-2 py-1 rounded-lg text-slate-700 dark:text-white font-bold transition-all"
+          >
+            साफ़
+          </button>
+        </div>
+      </div>
+
+      <!-- Actions drawer -->
+      <div class="flex items-center justify-between md:justify-end gap-3 shrink-0">
+        <!-- Live Calendar Details -->
+        <div class="hidden sm:flex items-center space-x-2.5 bg-slate-50 dark:bg-white/5 border border-slate-100 dark:border-white/10 px-4 py-2 rounded-2xl text-[11px] font-mono text-slate-400 dark:text-[#A0A0A0]">
+          <i data-lucide="calendar" class="w-3.5 h-3.5 text-brand-orange animate-pulse"></i>
+          <span class="font-bold text-slate-700 dark:text-white text-xs">18 जून, 2026</span>
+          <span class="text-slate-200 dark:text-white/10">|</span>
+          <span id="header-live-clock" class="font-bold text-slate-700 dark:text-white">10:22:01 AM</span>
+        </div>
+
+        <div class="flex items-center space-x-2">
+          <!-- Light/Dark Mode Switcher -->
+          <button 
+            id="theme-toggler"
+            class="p-2.5 rounded-xl bg-slate-50 dark:bg-white/5 hover:bg-slate-100 dark:hover:bg-white/10 border border-slate-200/50 dark:border-white/10 text-slate-500 dark:text-[#A0A0A0] hover:text-brand-orange cursor-pointer active:scale-95 transition-all shadow-sm"
+            title="थीम बदलें"
+          >
+            <i data-lucide="sun" id="theme-sun-icon" class="w-4 h-4 hidden"></i>
+            <i data-lucide="moon" id="theme-moon-icon" class="w-4 h-4"></i>
+          </button>
+
+          <!-- Notification system button -->
+          <button 
+            id="notification-badge"
+            class="p-2.5 rounded-xl bg-slate-50 dark:bg-white/5 hover:bg-slate-100 dark:hover:bg-white/10 border border-slate-200/50 dark:border-white/10 text-slate-500 dark:text-[#A0A0A0] hover:text-brand-orange relative cursor-pointer active:scale-95 transition-all shadow-sm"
+            title="सूचनाएं"
+          >
+            <i data-lucide="bell" class="w-4 h-4"></i>
+            <span class="absolute top-1.5 right-1.5 w-1.5 h-1.5 bg-brand-orange rounded-full"></span>
+          </button>
+        </div>
+
+        <!-- Dynamic User Profile Info -->
+        <div class="flex items-center space-x-2.5 pl-2 border-l border-slate-200 dark:border-white/10">
+          <div class="w-8 h-8 rounded-xl bg-brand-orange/10 border border-brand-orange/20 flex items-center justify-center text-brand-orange">
+            <i data-lucide="user" class="w-4 h-4"></i>
+          </div>
+          <div class="hidden md:block text-left min-w-0">
+            <h4 class="text-[11px] font-mono leading-tight tracking-tight text-slate-400 dark:text-[#A0A0A0]">अतिथि छात्र</h4>
+            <p class="text-[11.5px] font-semibold text-slate-800 dark:text-white truncate leading-none mt-0.5" title="krtutu521@gmail.com">
+              krtutu521@gmail.com
+            </p>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- CONTENT WRAPPER (Dynamic views injected here inside fade transition blocks) -->
+    <div id="app-view-container" class="space-y-6 flex-1">
+      <!-- Dynamic templates will compile here based on hashmaps -->
+    </div>
+  </main>
+
+  <!-- Mobile Bottom Navigation (Visible only on small devices) -->
+  <nav class="fixed bottom-0 left-0 right-0 bg-white dark:bg-[#12151C] border-t border-slate-200 dark:border-white/10 py-1 px-4 flex items-center justify-around z-40 lg:hidden shadow-lg select-none">
+    <button 
+      id="mob-nav-home"
+      onclick="window.location.hash = '#/'"
+      class="flex flex-col items-center justify-center gap-1 p-2 text-brand-orange font-semibold flex-1 transition-all"
+    >
+      <i data-lucide="home" class="w-5 h-5"></i>
+      <span class="text-[9px]">होम</span>
+    </button>
+    <button 
+      id="mob-nav-saved"
+      onclick="window.location.hash = '#/saved'"
+      class="flex flex-col items-center justify-center gap-1 p-2 text-slate-400 dark:text-[#A0A0A0] flex-1 hover:text-brand-orange transition-all"
+    >
+      <i data-lucide="star" class="w-5 h-5"></i>
+      <span class="text-[9px]">मेरे बैच</span>
+    </button>
+  </nav>
+
+  <!-- OTT Premium Video Modal Overlay -->
+  <div 
+    id="video-player-modal" 
+    class="fixed inset-0 z-50 flex items-center justify-center p-4 bg-[#0B0E14]/85 backdrop-blur-md hidden transition-opacity duration-300 opacity-0 select-none"
+  >
+    <!-- Modal interior -->
+    <div class="relative w-full max-w-4xl bg-white dark:bg-[#12151C] border border-slate-200/50 dark:border-white/10 rounded-3xl overflow-hidden shadow-2xl flex flex-col md:flex-row h-auto max-h-[90vh]">
+      
+      <!-- Close floating icon -->
+      <button 
+        id="modal-close-btn"
+        class="absolute top-4 right-4 z-20 w-8 h-8 rounded-full bg-slate-900/80 hover:bg-slate-950 flex items-center justify-center text-white cursor-pointer active:scale-95 transition-all shadow-md"
+      >
+        <i data-lucide="x" class="w-4 h-4"></i>
+      </button>
+
+      <!-- Video projection screens -->
+      <div class="flex-1 bg-black aspect-video flex items-center justify-center relative overflow-hidden self-center w-full">
+        <!-- Interactive Iframe element -->
+        <iframe 
+          id="modal-video-iframe" 
+          src="" 
+          class="absolute inset-0 w-full h-full border-0 hidden" 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+          allowfullscreen
+        ></iframe>
+
+        <!-- Video player status visual mask -->
+        <div id="modal-video-overlay" class="absolute inset-0 bg-[#12151C] flex flex-col items-center justify-center p-6 text-center select-none">
+          <div class="w-16 h-16 rounded-full bg-brand-orange/10 border border-brand-orange/20 flex items-center justify-center text-brand-orange mb-4 animate-bounce">
+            <i data-lucide="video" class="w-6 h-6"></i>
+          </div>
+          <h4 class="font-display font-semibold text-white text-base">स्ट्रीमिंग प्लेयर के लिए सर्वर सर्वर चुनें</h4>
+          <p class="text-xs text-[#A0A0A0] mt-1.5 max-w-xs">दाईं ओर दिए गए HD वीडियो या सामान्य वीडियो सर्वर विकल्पों पर क्लिक करके प्ले शुरू करें।</p>
+        </div>
+      </div>
+
+      <!-- Action Panel & options -->
+      <div class="w-full md:w-80 p-6 flex flex-col justify-between border-t md:border-t-0 md:border-l border-slate-100 dark:border-white/10 gap-6 overflow-y-auto">
+        <div class="space-y-4">
+          <span class="text-[9.5px] font-mono tracking-wider font-extrabold text-[#007AFF] bg-brand-blue/10 px-2 py-0.5 rounded border border-brand-blue/20 uppercase" id="modal-badge">
+            HD STREAMS ACTIVE
+          </span>
+          <h3 id="modal-title" class="font-display font-bold text-slate-800 dark:text-white text-sm md:text-base leading-snug">
+            लेक्चर वीडियो टाइटल लोड हो रहा है...
+          </h3>
+          <p id="modal-desc" class="text-xs text-slate-400 dark:text-[#A0A0A0] leading-relaxed">
+            खान सर और फैकल्टी टीम द्वारा सर्वश्रेष्ठ शिक्षण और गहन विश्लेषण प्रदान किया जा रहा है।
+          </p>
+
+          <!-- Playlist Servers options -->
+          <div class="space-y-2.5 pt-4 border-t border-slate-100 dark:border-white/15">
+            <label class="text-[10px] font-mono font-bold text-slate-400 dark:text-[#A0A0A0] uppercase tracking-wider block">
+              वीडियो प्लेबैक सर्वर
+            </label>
+            
+            <button 
+              id="server-hd-btn"
+              class="w-full flex items-center justify-between p-3 rounded-xl bg-gradient-to-r from-brand-orange/10 to-brand-orange-light/10 text-brand-orange hover:from-brand-orange/20 hover:to-brand-orange-light/20 font-bold border border-brand-orange/30 transition-all text-xs active:scale-98"
+            >
+              <div class="flex items-center space-x-2.5">
+                <i data-lucide="play-circle" class="w-4.5 h-4.5 text-brand-orange"></i>
+                <span class="text-left">HD वीडियो सर्वर</span>
+              </div>
+              <span class="text-[9px] px-1 bg-brand-orange text-white font-mono rounded">1080p</span>
+            </button>
+
+            <button 
+              id="server-sd-btn"
+              class="w-full flex items-center justify-between p-3 rounded-xl bg-slate-50 dark:bg-white/5 text-slate-700 dark:text-white hover:bg-slate-150 dark:hover:bg-white/10 border border-slate-100 dark:border-white/10 transition-all text-xs active:scale-98"
+            >
+              <div class="flex items-center space-x-2.5">
+                <i data-lucide="play" class="w-4.5 h-4.5 text-slate-400"></i>
+                <span>सामान्य वीडियो सर्वर</span>
+              </div>
+              <span class="text-[9px] px-1 bg-slate-500 text-white font-mono rounded">480p</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Download attachments / metadata -->
+        <div class="space-y-3 pt-4 border-t border-slate-100 dark:border-white/15">
+          <label class="text-[10px] font-mono font-bold text-slate-400 dark:text-[#A0A0A0] uppercase tracking-wider block">
+            संबंधित दस्तावेज़
+          </label>
+          <a 
+            id="modal-pdf-btn" 
+            href="#" 
+            target="_blank"
+            class="flex items-center justify-between p-2.5 bg-[#007AFF]/10 text-[#007AFF] hover:bg-[#007AFF]/20 border border-[#007AFF]/30 rounded-xl text-xs font-semibold select-none transition-all"
+          >
+            <div class="flex items-center space-x-2">
+              <i data-lucide="file-text" class="w-4 h-4 text-[#007AFF]"></i>
+              <span>क्लास पीडीएफ नोट्स डाउनलोड करें</span>
+            </div>
+            <i data-lucide="download" class="w-3.5 h-3.5"></i>
+          </a>
+          <span id="no-pdf-hint" class="text-[10px] text-slate-400 dark:text-[#A0A0A0] font-mono leading-none italic block text-center hidden">
+            * इसके लिए कोई नोट्स उपलब्ध नहीं हैं
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Dynamic View Templates Definition for JS routing to parse dynamically -->
+  <script src="js/app.js"></script>
+</body>
+</html>
