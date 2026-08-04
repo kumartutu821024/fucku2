@@ -1,5 +1,580 @@
 [
-
+    {
+        "id": 1183,
+        "title": "MPPSC Sociology Module 2026",
+        "category_id": 2,
+        "start_at": "2026-08-10",
+        "end_at": "2027-02-10",
+        "image_large": "https://kgs-v2.akamaized.net/kgs/kgs/courses/large/f8417b1c-5b83-4807-8cc6-0bcf37536226.jpg",
+        "image_thumb": "https://kgs-v2.akamaized.net/kgs/kgs/courses/thumb/f8417b1c-5b83-4807-8cc6-0bcf37536226.jpg"
+    },
+    {
+        "id": 1182,
+        "title": "72nd BPSC Mains Batch (Hindi Medium)",
+        "category_id": 2,
+        "start_at": "2026-08-04",
+        "end_at": "2027-08-04",
+        "image_large": "https://kgs-v2.akamaized.net/kgs/kgs/courses/large/258f202e-4f54-444d-8161-cdf7fc0c5b91.jpg",
+        "image_thumb": "https://kgs-v2.akamaized.net/kgs/kgs/courses/thumb/258f202e-4f54-444d-8161-cdf7fc0c5b91.jpg"
+    },
+    {
+        "id": 1181,
+        "title": "72nd BPSC Mains Batch (Bilingual)",
+        "category_id": 2,
+        "start_at": "2026-08-06",
+        "end_at": "2027-08-06",
+        "image_large": "https://kgs-v2.akamaized.net/kgs/kgs/courses/large/2ac701f9-725d-48cb-b581-a5be6b94220f.jpg",
+        "image_thumb": "https://kgs-v2.akamaized.net/kgs/kgs/courses/thumb/2ac701f9-725d-48cb-b581-a5be6b94220f.jpg"
+    },
+    {
+        "id": 1180,
+        "title": "Complete Artificial Intelligence (AI) Masterclass: From Beginner to Advanced",
+        "category_id": 1,
+        "start_at": "2026-07-27",
+        "end_at": "2026-10-29",
+        "image_large": "https://kgs-v2.akamaized.net/kgs/kgs/courses/large/ccd2d462-bf61-49ad-b848-d96acfeb4734.png",
+        "image_thumb": "https://kgs-v2.akamaized.net/kgs/kgs/courses/thumb/ccd2d462-bf61-49ad-b848-d96acfeb4734.png"
+    },
+    {
+        "id": 1179,
+        "title": "Economics Foundation by Khan Sir",
+        "category_id": 2,
+        "start_at": "2026-08-13",
+        "end_at": "2027-02-13",
+        "image_large": "https://kgs-v2.akamaized.net/kgs/kgs/courses/large/2859404c-ed10-4fde-ad1c-0cd1cf8a1782.jpg",
+        "image_thumb": "https://kgs-v2.akamaized.net/kgs/kgs/courses/thumb/2859404c-ed10-4fde-ad1c-0cd1cf8a1782.jpg"
+    },
+    {
+        "id": 1178,
+        "title": "Biology Foundation by Khan Sir",
+        "category_id": 2,
+        "start_at": "2026-08-20",
+        "end_at": "2027-04-20",
+        "image_large": "https://kgs-v2.akamaized.net/kgs/kgs/courses/large/0ce2c3c6-3a42-48a8-b3f1-9fa91a17a2a1.jpg",
+        "image_thumb": "https://kgs-v2.akamaized.net/kgs/kgs/courses/thumb/0ce2c3c6-3a42-48a8-b3f1-9fa91a17a2a1.jpg"
+    },
+    {
+        "id": 1177,
+        "title": "History Foundation by Khan Sir",
+        "category_id": 2,
+        "start_at": "2026-08-18",
+        "end_at": "2027-04-18",
+        "image_large": "https://kgs-v2.akamaized.net/kgs/kgs/courses/large/ee23b402-11dd-4cff-a200-07e0760479c2.png",
+        "image_thumb": "https://kgs-v2.akamaized.net/kgs/kgs/courses/thumb/ee23b402-11dd-4cff-a200-07e0760479c2.png"
+    },
+    {
+        "id": 1176,
+        "title": "73rd BPSC Foundation Batch 7 (Boring Road)",
+        "category_id": 4,
+        "start_at": "2026-08-20",
+        "end_at": "2028-08-20",
+        "image_large": "https://kgs-v2.akamaized.net/kgs/kgs/courses/large/7bf1ebc5-1131-4e81-bb56-de1944933283.png",
+        "image_thumb": "https://kgs-v2.akamaized.net/kgs/kgs/courses/thumb/7bf1ebc5-1131-4e81-bb56-de1944933283.png"
+    },
+    {
+        "id": 1175,
+        "title": "73rd BPSC Foundation Batch 7- Online (Bilingual)",
+        "category_id": 2,
+        "start_at": "2026-08-20",
+        "end_at": "2028-08-20",
+        "image_large": "https://kgs-v2.akamaized.net/kgs/kgs/courses/large/c5626466-9818-4359-b855-b55b2d724163.png",
+        "image_thumb": "https://kgs-v2.akamaized.net/kgs/kgs/courses/thumb/c5626466-9818-4359-b855-b55b2d724163.png"
+    },
+    {
+        "id": 1174,
+        "title": "UP SI Daroga Moolvidhi + Polity 2026-2027",
+        "category_id": 2,
+        "start_at": "2026-08-03",
+        "end_at": "2027-08-03",
+        "image_large": "https://kgs-v2.akamaized.net/kgs/kgs/courses/large/37a80a81-0f51-49fc-8680-5b4213c4069a.png",
+        "image_thumb": "https://kgs-v2.akamaized.net/kgs/kgs/courses/thumb/37a80a81-0f51-49fc-8680-5b4213c4069a.png"
+    },
+    {
+        "id": 1173,
+        "title": "UP SI DAROGA Batch 2026-2027",
+        "category_id": 2,
+        "start_at": "2026-08-03",
+        "end_at": "2027-08-03",
+        "image_large": "https://kgs-v2.akamaized.net/kgs/kgs/courses/large/dae6bb9a-452a-48d9-abfe-b62c9c2bd585.png",
+        "image_thumb": "https://kgs-v2.akamaized.net/kgs/kgs/courses/thumb/dae6bb9a-452a-48d9-abfe-b62c9c2bd585.png"
+    },
+    {
+        "id": 1172,
+        "title": "Software Development",
+        "category_id": 5,
+        "start_at": "2026-07-26",
+        "end_at": "2027-08-04",
+        "image_large": "https://kgs-v2.akamaized.net/kgs/kgs/courses/large/73a5706f-e7fc-4140-aa08-d89c986ab8f9.png",
+        "image_thumb": "https://kgs-v2.akamaized.net/kgs/kgs/courses/thumb/73a5706f-e7fc-4140-aa08-d89c986ab8f9.png"
+    },
+    {
+        "id": 1171,
+        "title": "World Map By Khan Sir (Recorded)",
+        "category_id": 3,
+        "start_at": "2026-07-23",
+        "end_at": "2027-04-30",
+        "image_large": "https://kgs-v2.akamaized.net/kgs/kgs/courses/large/84edfe48-310a-4f0a-bfb6-35ed138ae3a2.webp",
+        "image_thumb": "https://kgs-v2.akamaized.net/kgs/kgs/courses/thumb/84edfe48-310a-4f0a-bfb6-35ed138ae3a2.webp"
+    },
+    {
+        "id": 1170,
+        "title": "UPSC (Pre+Mains) Foundation Batch 2027 English Medium (Karol Bagh)",
+        "category_id": 4,
+        "start_at": "2026-08-17",
+        "end_at": "2028-08-17",
+        "image_large": "https://kgs-v2.akamaized.net/kgs/kgs/courses/large/3bf77b83-7d2c-4c21-ab80-03af6fdca1ed.webp",
+        "image_thumb": "https://kgs-v2.akamaized.net/kgs/kgs/courses/thumb/3bf77b83-7d2c-4c21-ab80-03af6fdca1ed.webp"
+    },
+    {
+        "id": 1169,
+        "title": "BPSSC Mission Officer Batch 2026",
+        "category_id": 2,
+        "start_at": "2026-07-29",
+        "end_at": "2027-03-29",
+        "image_large": "https://kgs-v2.akamaized.net/kgs/kgs/courses/large/f52ee846-7ed4-4b69-a064-9731c5bfe2f5.png",
+        "image_thumb": "https://kgs-v2.akamaized.net/kgs/kgs/courses/thumb/f52ee846-7ed4-4b69-a064-9731c5bfe2f5.png"
+    },
+    {
+        "id": 1168,
+        "title": "CAPF Foundation Batch 2027",
+        "category_id": 2,
+        "start_at": "2026-08-17",
+        "end_at": "2027-06-30",
+        "image_large": "https://kgs-v2.akamaized.net/kgs/kgs/courses/large/c32b4041-77e4-41d0-a3f8-2ce4108f7220.jpg",
+        "image_thumb": "https://kgs-v2.akamaized.net/kgs/kgs/courses/thumb/c32b4041-77e4-41d0-a3f8-2ce4108f7220.jpg"
+    },
+    {
+        "id": 1167,
+        "title": "CDS + CAPF Batch 2027 (Dehradun Offline)",
+        "category_id": 4,
+        "start_at": "2026-08-17",
+        "end_at": "2027-08-17",
+        "image_large": "https://kgs-v2.akamaized.net/kgs/kgs/courses/large/54534f6a-2088-4385-8020-59d52e3d7dab.jpg",
+        "image_thumb": "https://kgs-v2.akamaized.net/kgs/kgs/courses/thumb/54534f6a-2088-4385-8020-59d52e3d7dab.jpg"
+    },
+    {
+        "id": 1166,
+        "title": "Maths Foundation by Shubham Sir 2026",
+        "category_id": 2,
+        "start_at": "2026-08-04",
+        "end_at": "2027-08-04",
+        "image_large": "https://kgs-v2.akamaized.net/kgs/kgs/courses/large/50e2cb59-dda5-48c3-afb9-3ddab709bf54.png",
+        "image_thumb": "https://kgs-v2.akamaized.net/kgs/kgs/courses/thumb/50e2cb59-dda5-48c3-afb9-3ddab709bf54.png"
+    },
+    {
+        "id": 1165,
+        "title": "Maths Special 1.0 by Prashant Sir",
+        "category_id": 2,
+        "start_at": "2026-08-03",
+        "end_at": "2028-01-31",
+        "image_large": "https://kgs-v2.akamaized.net/kgs/kgs/courses/large/38f9991f-28a3-43b6-966c-8531eddc7e68.png",
+        "image_thumb": "https://kgs-v2.akamaized.net/kgs/kgs/courses/thumb/38f9991f-28a3-43b6-966c-8531eddc7e68.png"
+    },
+    {
+        "id": 1164,
+        "title": "Super TET (Junior Teacher- SST) Batch 2026",
+        "category_id": 2,
+        "start_at": "2026-07-21",
+        "end_at": "2027-01-21",
+        "image_large": "https://kgs-v2.akamaized.net/kgs/kgs/courses/large/c3f3b57d-2589-4383-a787-f6a30d6057de.png",
+        "image_thumb": "https://kgs-v2.akamaized.net/kgs/kgs/courses/thumb/c3f3b57d-2589-4383-a787-f6a30d6057de.png"
+    },
+    {
+        "id": 1163,
+        "title": "Super TET (Junior Teacher- Maths & Science) Batch 2026",
+        "category_id": 2,
+        "start_at": "2026-07-21",
+        "end_at": "2027-01-21",
+        "image_large": "https://kgs-v2.akamaized.net/kgs/kgs/courses/large/67222784-f74e-4210-8a93-b8717894fb39.png",
+        "image_thumb": "https://kgs-v2.akamaized.net/kgs/kgs/courses/thumb/67222784-f74e-4210-8a93-b8717894fb39.png"
+    },
+    {
+        "id": 1162,
+        "title": "Super TET (Junior Teacher- Sanskrit) Batch 2026",
+        "category_id": 2,
+        "start_at": "2026-07-21",
+        "end_at": "2027-01-21",
+        "image_large": "https://kgs-v2.akamaized.net/kgs/kgs/courses/large/f6e8be4a-3b77-436a-9bff-a6b14d01662e.png",
+        "image_thumb": "https://kgs-v2.akamaized.net/kgs/kgs/courses/thumb/f6e8be4a-3b77-436a-9bff-a6b14d01662e.png"
+    },
+    {
+        "id": 1161,
+        "title": "Super TET (Junior Teacher- English) Batch 2026",
+        "category_id": 2,
+        "start_at": "2026-07-21",
+        "end_at": "2027-01-21",
+        "image_large": "https://kgs-v2.akamaized.net/kgs/kgs/courses/large/a5711bd6-820a-4acd-8357-5176a63392e5.png",
+        "image_thumb": "https://kgs-v2.akamaized.net/kgs/kgs/courses/thumb/a5711bd6-820a-4acd-8357-5176a63392e5.png"
+    },
+    {
+        "id": 1160,
+        "title": "Super TET (Junior Teacher- Hindi) Batch 2026",
+        "category_id": 2,
+        "start_at": "2026-07-21",
+        "end_at": "2027-01-21",
+        "image_large": "https://kgs-v2.akamaized.net/kgs/kgs/courses/large/e73949e9-b67a-4a3d-87c5-345a94a59574.png",
+        "image_thumb": "https://kgs-v2.akamaized.net/kgs/kgs/courses/thumb/e73949e9-b67a-4a3d-87c5-345a94a59574.png"
+    },
+    {
+        "id": 1159,
+        "title": "Super TET (Primary Teacher) Batch 2026",
+        "category_id": 2,
+        "start_at": "2026-07-21",
+        "end_at": "2027-01-21",
+        "image_large": "https://kgs-v2.akamaized.net/kgs/kgs/courses/large/c6d340ef-b2af-4f5d-abde-af0e7542033a.png",
+        "image_thumb": "https://kgs-v2.akamaized.net/kgs/kgs/courses/thumb/c6d340ef-b2af-4f5d-abde-af0e7542033a.png"
+    },
+    {
+        "id": 1157,
+        "title": "Rajasthan CET लक्ष्य Batch 2026",
+        "category_id": 1,
+        "start_at": "2026-07-07",
+        "end_at": "2026-12-31",
+        "image_large": "https://kgs-v2.akamaized.net/kgs/kgs/courses/large/d38a781d-9232-404c-97fb-abfe55ab1bb7.png",
+        "image_thumb": "https://kgs-v2.akamaized.net/kgs/kgs/courses/thumb/d38a781d-9232-404c-97fb-abfe55ab1bb7.png"
+    },
+    {
+        "id": 1156,
+        "title": "MP Agriculture Officer Batch 2026",
+        "category_id": 1,
+        "start_at": "2026-07-07",
+        "end_at": "2026-09-30",
+        "image_large": "https://kgs-v2.akamaized.net/kgs/kgs/courses/large/df2b7a5a-769f-4000-8424-e805492c97ed.png",
+        "image_thumb": "https://kgs-v2.akamaized.net/kgs/kgs/courses/thumb/df2b7a5a-769f-4000-8424-e805492c97ed.png"
+    },
+    {
+        "id": 1155,
+        "title": "NEET 2027 Repeater Batch Online Bilingual Mode",
+        "category_id": 2,
+        "start_at": "2026-07-21",
+        "end_at": "2027-05-02",
+        "image_large": "https://kgs-v2.akamaized.net/kgs/kgs/courses/large/c8cc9f1f-045c-4a51-9b0b-e38f3bd62e27.png",
+        "image_thumb": "https://kgs-v2.akamaized.net/kgs/kgs/courses/thumb/c8cc9f1f-045c-4a51-9b0b-e38f3bd62e27.png"
+    },
+    {
+        "id": 1154,
+        "title": "JE (Electrical) Engineering Foundation Batch 2026",
+        "category_id": 2,
+        "start_at": "2026-07-21",
+        "end_at": "2027-03-31",
+        "image_large": "https://kgs-v2.akamaized.net/kgs/kgs/courses/large/e44e2fc2-ddaf-49cd-ad8d-cbacbbfec0e3.png",
+        "image_thumb": "https://kgs-v2.akamaized.net/kgs/kgs/courses/thumb/e44e2fc2-ddaf-49cd-ad8d-cbacbbfec0e3.png"
+    },
+    {
+        "id": 1153,
+        "title": "73rd BPSC Foundation Batch 10 (Hindi Medium)",
+        "category_id": 2,
+        "start_at": "2026-07-30",
+        "end_at": "2028-08-06",
+        "image_large": "https://kgs-v2.akamaized.net/kgs/kgs/courses/large/8221a6b6-39f3-4128-9856-3fff9688af5f.jpg",
+        "image_thumb": "https://kgs-v2.akamaized.net/kgs/kgs/courses/thumb/8221a6b6-39f3-4128-9856-3fff9688af5f.jpg"
+    },
+    {
+        "id": 1152,
+        "title": "73rd BPSC Foundation Batch 10 (Musallahpur Offline)",
+        "category_id": 4,
+        "start_at": "2026-07-30",
+        "end_at": "2028-08-06",
+        "image_large": "https://kgs-v2.akamaized.net/kgs/kgs/courses/large/113ca649-df76-45f5-8c5f-2b555a90e944.jpg",
+        "image_thumb": "https://kgs-v2.akamaized.net/kgs/kgs/courses/thumb/113ca649-df76-45f5-8c5f-2b555a90e944.jpg"
+    },
+    {
+        "id": 1151,
+        "title": "SCIENCE FOUNDATION BATCH 2026",
+        "category_id": 2,
+        "start_at": "2026-07-02",
+        "end_at": "2027-07-02",
+        "image_large": "https://kgs-v2.akamaized.net/kgs/kgs/courses/large/e5a9882b-5fc2-4428-98c3-0e44d930a012.png",
+        "image_thumb": "https://kgs-v2.akamaized.net/kgs/kgs/courses/thumb/e5a9882b-5fc2-4428-98c3-0e44d930a012.png"
+    },
+    {
+        "id": 1149,
+        "title": "Sociology Optional Mains Test Series & Mentorship 2026",
+        "category_id": 5,
+        "start_at": "2026-07-05",
+        "end_at": "2026-09-05",
+        "image_large": "https://kgs-v2.akamaized.net/kgs/kgs/courses/large/46d405d4-ca3b-4a27-8725-cf9865ff04d1.png",
+        "image_thumb": "https://kgs-v2.akamaized.net/kgs/kgs/courses/thumb/46d405d4-ca3b-4a27-8725-cf9865ff04d1.png"
+    },
+    {
+        "id": 1148,
+        "title": "UGC NET/JRF Paper 2 Home Science सफलता FOUNDATION Dec 2026",
+        "category_id": 1,
+        "start_at": "2026-07-06",
+        "end_at": "2027-07-06",
+        "image_large": "https://kgs-v2.akamaized.net/kgs/kgs/courses/large/29179e5a-bdc3-4c45-9117-1f5abfe538f1.png",
+        "image_thumb": "https://kgs-v2.akamaized.net/kgs/kgs/courses/thumb/29179e5a-bdc3-4c45-9117-1f5abfe538f1.png"
+    },
+    {
+        "id": 1147,
+        "title": "UGC NET/JRF Paper 2 Sociology  सफलता FOUNDATION Dec 2026",
+        "category_id": 1,
+        "start_at": "2026-07-06",
+        "end_at": "2027-07-06",
+        "image_large": "https://kgs-v2.akamaized.net/kgs/kgs/courses/large/22a415f7-5fee-44cc-aa39-d16ccb794608.png",
+        "image_thumb": "https://kgs-v2.akamaized.net/kgs/kgs/courses/thumb/22a415f7-5fee-44cc-aa39-d16ccb794608.png"
+    },
+    {
+        "id": 1146,
+        "title": "UGC NET/JRF Paper 2 Commerce  सफलता FOUNDATION Dec 2026",
+        "category_id": 1,
+        "start_at": "2026-07-06",
+        "end_at": "2027-07-06",
+        "image_large": "https://kgs-v2.akamaized.net/kgs/kgs/courses/large/41c850d3-99f2-467c-98e5-f48c9c233545.png",
+        "image_thumb": "https://kgs-v2.akamaized.net/kgs/kgs/courses/thumb/41c850d3-99f2-467c-98e5-f48c9c233545.png"
+    },
+    {
+        "id": 1145,
+        "title": "UGC NET/JRF Paper 2 Economics  सफलता FOUNDATION Dec 2026",
+        "category_id": 1,
+        "start_at": "2026-07-06",
+        "end_at": "2027-07-06",
+        "image_large": "https://kgs-v2.akamaized.net/kgs/kgs/courses/large/d69caf84-79a7-4a8b-9cf1-f66bc6d0b316.png",
+        "image_thumb": "https://kgs-v2.akamaized.net/kgs/kgs/courses/thumb/d69caf84-79a7-4a8b-9cf1-f66bc6d0b316.png"
+    },
+    {
+        "id": 1144,
+        "title": "UGC NET/JRF Paper 2 Political Science सफलता FOUNDATION Dec 2026",
+        "category_id": 1,
+        "start_at": "2026-07-06",
+        "end_at": "2027-07-06",
+        "image_large": "https://kgs-v2.akamaized.net/kgs/kgs/courses/large/969e77bb-954a-4330-b826-fda27e83c225.png",
+        "image_thumb": "https://kgs-v2.akamaized.net/kgs/kgs/courses/thumb/969e77bb-954a-4330-b826-fda27e83c225.png"
+    },
+    {
+        "id": 1143,
+        "title": "UGC NET/JRF Paper 2 Geography  सफलता FOUNDATION Dec 2026",
+        "category_id": 1,
+        "start_at": "2026-07-06",
+        "end_at": "2027-07-06",
+        "image_large": "https://kgs-v2.akamaized.net/kgs/kgs/courses/large/2a04207b-f535-407f-9d7f-f1fa8ac89e3e.png",
+        "image_thumb": "https://kgs-v2.akamaized.net/kgs/kgs/courses/thumb/2a04207b-f535-407f-9d7f-f1fa8ac89e3e.png"
+    },
+    {
+        "id": 1142,
+        "title": "UGC NET/JRF Paper 2 History  सफलता FOUNDATION Dec 2026",
+        "category_id": 1,
+        "start_at": "2026-07-06",
+        "end_at": "2027-07-06",
+        "image_large": "https://kgs-v2.akamaized.net/kgs/kgs/courses/large/3960dcec-cc2d-4f3b-ac5b-38111a1611be.png",
+        "image_thumb": "https://kgs-v2.akamaized.net/kgs/kgs/courses/thumb/3960dcec-cc2d-4f3b-ac5b-38111a1611be.png"
+    },
+    {
+        "id": 1141,
+        "title": "UGC NET/JRF Paper 2 Hindi  सफलता FOUNDATION Dec 2026",
+        "category_id": 1,
+        "start_at": "2026-07-06",
+        "end_at": "2027-07-06",
+        "image_large": "https://kgs-v2.akamaized.net/kgs/kgs/courses/large/15cdefd6-e88e-44c9-979a-ab8994e5f06b.png",
+        "image_thumb": "https://kgs-v2.akamaized.net/kgs/kgs/courses/thumb/15cdefd6-e88e-44c9-979a-ab8994e5f06b.png"
+    },
+    {
+        "id": 1140,
+        "title": "UGC NET/JRF  Paper 2 English सफलता FOUNDATION Dec 2026",
+        "category_id": 1,
+        "start_at": "2026-07-06",
+        "end_at": "2027-07-06",
+        "image_large": "https://kgs-v2.akamaized.net/kgs/kgs/courses/large/56157260-4d88-4c0b-93ca-63412dcf1981.png",
+        "image_thumb": "https://kgs-v2.akamaized.net/kgs/kgs/courses/thumb/56157260-4d88-4c0b-93ca-63412dcf1981.png"
+    },
+    {
+        "id": 1139,
+        "title": "UGC NET/JRF Paper -1 सफलता FOUNDATION Dec 2026",
+        "category_id": 1,
+        "start_at": "2026-07-06",
+        "end_at": "2027-07-06",
+        "image_large": "https://kgs-v2.akamaized.net/kgs/kgs/courses/large/0261cd30-4e26-4ccf-b728-6652ae9eb8f4.png",
+        "image_thumb": "https://kgs-v2.akamaized.net/kgs/kgs/courses/thumb/0261cd30-4e26-4ccf-b728-6652ae9eb8f4.png"
+    },
+    {
+        "id": 1138,
+        "title": "History Optional Mains Test Series & Mentorship 2026 (English Medium)",
+        "category_id": 2,
+        "start_at": "2026-06-28",
+        "end_at": "2026-09-30",
+        "image_large": "https://kgs-v2.akamaized.net/kgs/kgs/courses/large/2c2964f1-1a2b-4a91-83ae-cf2fd304fc5f.png",
+        "image_thumb": "https://kgs-v2.akamaized.net/kgs/kgs/courses/thumb/2c2964f1-1a2b-4a91-83ae-cf2fd304fc5f.png"
+    },
+    {
+        "id": 1137,
+        "title": "History Optional Mains Test Series & Mentorship 2026",
+        "category_id": 2,
+        "start_at": "2026-06-28",
+        "end_at": "2026-09-30",
+        "image_large": "https://kgs-v2.akamaized.net/kgs/kgs/courses/large/8b098d19-2482-4194-9991-a1bad0bf55d0.png",
+        "image_thumb": "https://kgs-v2.akamaized.net/kgs/kgs/courses/thumb/8b098d19-2482-4194-9991-a1bad0bf55d0.png"
+    },
+    {
+        "id": 1136,
+        "title": "Hindi Literature Optional Mains Test Series & Mentorship 2026",
+        "category_id": 2,
+        "start_at": "2026-06-28",
+        "end_at": "2026-09-30",
+        "image_large": "https://kgs-v2.akamaized.net/kgs/kgs/courses/large/f3dc8367-b7d3-43cd-bd70-2f8fd97eb31c.png",
+        "image_thumb": "https://kgs-v2.akamaized.net/kgs/kgs/courses/thumb/f3dc8367-b7d3-43cd-bd70-2f8fd97eb31c.png"
+    },
+    {
+        "id": 1135,
+        "title": "Public Administration Optional Mains Test Series & Mentorship 2026",
+        "category_id": 2,
+        "start_at": "2026-06-28",
+        "end_at": "2026-09-30",
+        "image_large": "https://kgs-v2.akamaized.net/kgs/kgs/courses/large/7e17b4b3-5b10-4e15-b1a1-23891534781b.png",
+        "image_thumb": "https://kgs-v2.akamaized.net/kgs/kgs/courses/thumb/7e17b4b3-5b10-4e15-b1a1-23891534781b.png"
+    },
+    {
+        "id": 1134,
+        "title": "Geography Optional Mains Test Series & Mentorship 2026 (Offline)",
+        "category_id": 4,
+        "start_at": "2026-06-21",
+        "end_at": "2026-08-31",
+        "image_large": "https://kgs-v2.akamaized.net/kgs/kgs/courses/large/f4178309-f80f-4546-ac2b-b14f51d6d0ba.jpg",
+        "image_thumb": "https://kgs-v2.akamaized.net/kgs/kgs/courses/thumb/f4178309-f80f-4546-ac2b-b14f51d6d0ba.jpg"
+    },
+    {
+        "id": 1133,
+        "title": "Geography Optional Mains Test Series & Mentorship 2026 (Online)",
+        "category_id": 2,
+        "start_at": "2026-06-21",
+        "end_at": "2026-08-31",
+        "image_large": "https://kgs-v2.akamaized.net/kgs/kgs/courses/large/ebef8a82-4fa2-4116-9e09-bf58d97944cb.jpg",
+        "image_thumb": "https://kgs-v2.akamaized.net/kgs/kgs/courses/thumb/ebef8a82-4fa2-4116-9e09-bf58d97944cb.jpg"
+    },
+    {
+        "id": 1132,
+        "title": "Repeater Yearlong Offline Bilingual Batch Delhi NEET 2027",
+        "category_id": 4,
+        "start_at": "2026-07-09",
+        "end_at": "2027-05-02",
+        "image_large": "https://kgs-v2.akamaized.net/kgs/kgs/courses/large/082e46b5-2590-4012-ad79-9b5aaf00c188.jpg",
+        "image_thumb": "https://kgs-v2.akamaized.net/kgs/kgs/courses/thumb/082e46b5-2590-4012-ad79-9b5aaf00c188.jpg"
+    },
+    {
+        "id": 1131,
+        "title": "Repeater Yearlong Offline Bilingual Batch Prayagraj NEET 2027",
+        "category_id": 4,
+        "start_at": "2026-07-09",
+        "end_at": "2027-05-02",
+        "image_large": "https://kgs-v2.akamaized.net/kgs/kgs/courses/large/9cea5551-d1d4-4fb3-9775-9d56890f0c69.jpg",
+        "image_thumb": "https://kgs-v2.akamaized.net/kgs/kgs/courses/thumb/9cea5551-d1d4-4fb3-9775-9d56890f0c69.jpg"
+    },
+    {
+        "id": 1130,
+        "title": "Repeater Yearlong Offline Bilingual Batch Musallahpur Hat NEET 2027",
+        "category_id": 4,
+        "start_at": "2026-07-09",
+        "end_at": "2027-05-02",
+        "image_large": "https://kgs-v2.akamaized.net/kgs/kgs/courses/large/714af121-0e2c-4180-8733-6418b4f64b16.jpg",
+        "image_thumb": "https://kgs-v2.akamaized.net/kgs/kgs/courses/thumb/714af121-0e2c-4180-8733-6418b4f64b16.jpg"
+    },
+    {
+        "id": 1129,
+        "title": "Repeater Yearlong Offline Bilingual Batch Boring Road NEET 2027",
+        "category_id": 4,
+        "start_at": "2026-07-09",
+        "end_at": "2027-05-02",
+        "image_large": "https://kgs-v2.akamaized.net/kgs/kgs/courses/large/488a096a-06ac-4ba7-84b5-c3eda67bc396.jpg",
+        "image_thumb": "https://kgs-v2.akamaized.net/kgs/kgs/courses/thumb/488a096a-06ac-4ba7-84b5-c3eda67bc396.jpg"
+    },
+    {
+        "id": 1128,
+        "title": "Biology Foundation Batch 4.0 by Amrita Ma’am",
+        "category_id": 2,
+        "start_at": "2026-07-01",
+        "end_at": "2027-02-28",
+        "image_large": "https://kgs-v2.akamaized.net/kgs/kgs/courses/large/e508e209-79e8-4bd5-8455-05dbe7319c20.png",
+        "image_thumb": "https://kgs-v2.akamaized.net/kgs/kgs/courses/thumb/e508e209-79e8-4bd5-8455-05dbe7319c20.png"
+    },
+    {
+        "id": 1127,
+        "title": "Maths Foundation Batch By Gaurav Sir",
+        "category_id": 3,
+        "start_at": "2026-06-16",
+        "end_at": "2027-06-15",
+        "image_large": "https://kgs-v2.akamaized.net/kgs/kgs/courses/large/87fe45e5-0168-4712-9586-f1dbebd97421.jpg",
+        "image_thumb": "https://kgs-v2.akamaized.net/kgs/kgs/courses/thumb/87fe45e5-0168-4712-9586-f1dbebd97421.jpg"
+    },
+    {
+        "id": 1126,
+        "title": "UPSC Parivartan Mentorship Programme (Hindi Medium)",
+        "category_id": 2,
+        "start_at": "2026-06-28",
+        "end_at": "2027-12-31",
+        "image_large": "https://kgs-v2.akamaized.net/kgs/kgs/courses/large/d7ed9873-d1b9-48f8-8153-1c5948b0c10d.png",
+        "image_thumb": "https://kgs-v2.akamaized.net/kgs/kgs/courses/thumb/d7ed9873-d1b9-48f8-8153-1c5948b0c10d.png"
+    },
+    {
+        "id": 1125,
+        "title": "UPSC Parivartan Mentorship Programme (English Medium)",
+        "category_id": 2,
+        "start_at": "2026-06-28",
+        "end_at": "2027-12-31",
+        "image_large": "https://kgs-v2.akamaized.net/kgs/kgs/courses/large/9db8abeb-233b-4730-b818-0f18ed2a3b38.png",
+        "image_thumb": "https://kgs-v2.akamaized.net/kgs/kgs/courses/thumb/9db8abeb-233b-4730-b818-0f18ed2a3b38.png"
+    },
+    {
+        "id": 1124,
+        "title": "UPSC Parivartan Mentorship Programme (Offline Hindi)",
+        "category_id": 4,
+        "start_at": "2026-06-28",
+        "end_at": "2027-12-31",
+        "image_large": "https://kgs-v2.akamaized.net/kgs/kgs/courses/large/15a1a78a-66a3-49db-9ab8-d77171e884f2.png",
+        "image_thumb": "https://kgs-v2.akamaized.net/kgs/kgs/courses/thumb/15a1a78a-66a3-49db-9ab8-d77171e884f2.png"
+    },
+    {
+        "id": 1123,
+        "title": "UPSC Parivartan Mentorship Programme (Offline English)",
+        "category_id": 4,
+        "start_at": "2026-06-28",
+        "end_at": "2027-12-31",
+        "image_large": "https://kgs-v2.akamaized.net/kgs/kgs/courses/large/a6e82a7c-dbf3-4e21-b0ca-b6962f1608f4.png",
+        "image_thumb": "https://kgs-v2.akamaized.net/kgs/kgs/courses/thumb/a6e82a7c-dbf3-4e21-b0ca-b6962f1608f4.png"
+    },
+    {
+        "id": 1122,
+        "title": "Reasoning Foundation Batch 2026 by Yogendra Sir",
+        "category_id": 2,
+        "start_at": "2026-06-22",
+        "end_at": "2027-07-31",
+        "image_large": "https://kgs-v2.akamaized.net/kgs/kgs/courses/large/6117359a-4c54-4db2-9dae-6a8f0e568f3a.png",
+        "image_thumb": "https://kgs-v2.akamaized.net/kgs/kgs/courses/thumb/6117359a-4c54-4db2-9dae-6a8f0e568f3a.png"
+    },
+    {
+        "id": 1121,
+        "title": "SSC Mahapack Batch 2026",
+        "category_id": 2,
+        "start_at": "2026-06-29",
+        "end_at": "2027-12-29",
+        "image_large": "https://kgs-v2.akamaized.net/kgs/kgs/courses/large/7eefa8e2-393b-4948-b28a-20430255917d.jpg",
+        "image_thumb": "https://kgs-v2.akamaized.net/kgs/kgs/courses/thumb/7eefa8e2-393b-4948-b28a-20430255917d.jpg"
+    },
+    {
+        "id": 1120,
+        "title": "Anthropology Optional Batch - English Medium",
+        "category_id": 2,
+        "start_at": "2026-07-07",
+        "end_at": "2027-09-07",
+        "image_large": "https://kgs-v2.akamaized.net/kgs/kgs/courses/large/cef99e2c-52a3-484b-90a8-2d4b0672f644.jpg",
+        "image_thumb": "https://kgs-v2.akamaized.net/kgs/kgs/courses/thumb/cef99e2c-52a3-484b-90a8-2d4b0672f644.jpg"
+    },
+    {
+        "id": 1119,
+        "title": "Sociology Optional Online - Hindi Medium",
+        "category_id": 2,
+        "start_at": "2026-07-16",
+        "end_at": "2027-09-16",
+        "image_large": "https://kgs-v2.akamaized.net/kgs/kgs/courses/large/97edc215-df6d-4af5-a6b4-84926000b63e.jpg",
+        "image_thumb": "https://kgs-v2.akamaized.net/kgs/kgs/courses/thumb/97edc215-df6d-4af5-a6b4-84926000b63e.jpg"
+    },
+    {
+        "id": 1117,
+        "title": "SSC FOUNDATION शिखर बैच -2026-27",
+        "category_id": 4,
+        "start_at": "2026-07-02",
+        "end_at": "2027-07-02",
+        "image_large": "https://kgs-v2.akamaized.net/kgs/kgs/courses/large/0d507dfd-ee43-4625-9df2-e3e7fbc56b63.jpg",
+        "image_thumb": "https://kgs-v2.akamaized.net/kgs/kgs/courses/thumb/0d507dfd-ee43-4625-9df2-e3e7fbc56b63.jpg"
+    },
     {
         "id": 1115,
         "title": "UPSC & UPPSC (Pre + Mains) Foundation Batch 2027 Hindi Medium (Offline Prayagraj)",
@@ -54,8 +629,33 @@
         "image_large": "https://kgs-v2.akamaized.net/kgs/kgs/courses/large/b3c3a68d-daac-4260-9bbb-b91251a658f2.jpg",
         "image_thumb": "https://kgs-v2.akamaized.net/kgs/kgs/courses/thumb/b3c3a68d-daac-4260-9bbb-b91251a658f2.jpg"
     },
-
-
+    {
+        "id": 1108,
+        "title": "PSIR Optional (Hindi Medium) Batch",
+        "category_id": 2,
+        "start_at": "2026-07-20",
+        "end_at": "2027-07-20",
+        "image_large": "https://kgs-v2.akamaized.net/kgs/kgs/courses/large/c06cb017-8c5d-4643-96fc-e547cca204e9.png",
+        "image_thumb": "https://kgs-v2.akamaized.net/kgs/kgs/courses/thumb/c06cb017-8c5d-4643-96fc-e547cca204e9.png"
+    },
+    {
+        "id": 1107,
+        "title": "Sociology Optional ( English Medium) Batch",
+        "category_id": 2,
+        "start_at": "2026-07-20",
+        "end_at": "2027-07-20",
+        "image_large": "https://kgs-v2.akamaized.net/kgs/kgs/courses/large/d5ab263d-d50c-4ef0-a96f-1178d6172bee.png",
+        "image_thumb": "https://kgs-v2.akamaized.net/kgs/kgs/courses/thumb/d5ab263d-d50c-4ef0-a96f-1178d6172bee.png"
+    },
+    {
+        "id": 1106,
+        "title": "Public Administration Optional ( English Medium) Batch",
+        "category_id": 2,
+        "start_at": "2026-07-21",
+        "end_at": "2027-07-31",
+        "image_large": "https://kgs-v2.akamaized.net/kgs/kgs/courses/large/730b9248-a278-4000-b591-b540892afe9e.png",
+        "image_thumb": "https://kgs-v2.akamaized.net/kgs/kgs/courses/thumb/730b9248-a278-4000-b591-b540892afe9e.png"
+    },
     {
         "id": 1105,
         "title": "UPPSC Foundation Batch 2027 (Hindi Medium)",
@@ -245,7 +845,15 @@
         "image_large": "https://kgs-v2.akamaized.net/kgs/kgs/courses/large/826635bf-7d1b-4210-8a84-764d660ba2b9.jpg",
         "image_thumb": "https://kgs-v2.akamaized.net/kgs/kgs/courses/thumb/826635bf-7d1b-4210-8a84-764d660ba2b9.jpg"
     },
-
+    {
+        "id": 1084,
+        "title": "UPSC GS Foundation Batch 2027 English Medium (Boring Road)",
+        "category_id": 4,
+        "start_at": "2026-07-07",
+        "end_at": "2027-12-31",
+        "image_large": "https://kgs-v2.akamaized.net/kgs/kgs/courses/large/d92dea12-7c1a-48d7-b506-fd6fd4e3359b.png",
+        "image_thumb": "https://kgs-v2.akamaized.net/kgs/kgs/courses/thumb/d92dea12-7c1a-48d7-b506-fd6fd4e3359b.png"
+    },
     {
         "id": 1083,
         "title": "CTET September 2026 (Paper-2) लक्ष्य Batch",
@@ -7985,6 +8593,716 @@
         "end_at": "2026-01-15",
         "image_large": "https://kgs-v2.akamaized.net/kgs/kgs-do/courses/large/5f0c467d-1a83-4cb0-9824-17857b027628.jpg",
         "image_thumb": "https://kgs.nyc3.digitaloceanspaces.com/courses/thumb/5f0c467d-1a83-4cb0-9824-17857b027628.jpg"
+    },
+    {
+        "id": 133,
+        "title": "UPSSSC PET (Preliminary Eligibility Test) 2023",
+        "category_id": 2,
+        "start_at": null,
+        "end_at": "2024-07-08",
+        "image_large": "https://kgs-v2.akamaized.net/kgs/do/courses/large/32163aa7-b412-4979-ba8e-d2e1b9c0c2af.jpg",
+        "image_thumb": "https://kgs-v2.akamaized.net/kgs/do/courses/thumb/32163aa7-b412-4979-ba8e-d2e1b9c0c2af.jpg"
+    },
+    {
+        "id": 132,
+        "title": "SSC CPO 2023",
+        "category_id": 2,
+        "start_at": "2023-07-15",
+        "end_at": "2024-01-31",
+        "image_large": "https://kgs-v2.akamaized.net/kgs/do/courses/large/5aab7cae-5929-4cc1-8db4-7800469f91c1.jpg",
+        "image_thumb": "https://kgs-v2.akamaized.net/kgs/do/courses/thumb/5aab7cae-5929-4cc1-8db4-7800469f91c1.jpg"
+    },
+    {
+        "id": 131,
+        "title": "Geography Optional Hindi Medium",
+        "category_id": 2,
+        "start_at": "2024-01-16",
+        "end_at": "2025-10-31",
+        "image_large": "https://kgs-v2.akamaized.net/kgs/kgs-do/courses/large/f2a2cc46-a9b0-4f6c-9616-546280ccca48.png",
+        "image_thumb": "https://kgs.nyc3.digitaloceanspaces.com/courses/thumb/f2a2cc46-a9b0-4f6c-9616-546280ccca48.png"
+    },
+    {
+        "id": 130,
+        "title": "Maths Optional Bilingual",
+        "category_id": 2,
+        "start_at": "2024-01-09",
+        "end_at": "2025-08-31",
+        "image_large": "https://kgs-v2.akamaized.net/kgs/do/courses/large/00314b58-6e83-4c07-86f0-050c5bf1541a.jpg",
+        "image_thumb": "https://kgs-v2.akamaized.net/kgs/do/courses/thumb/00314b58-6e83-4c07-86f0-050c5bf1541a.jpg"
+    },
+    {
+        "id": 129,
+        "title": "Philosophy Optional Hindi Medium (Offline Class)",
+        "category_id": 5,
+        "start_at": null,
+        "end_at": "2025-05-19",
+        "image_large": "https://kgs-v2.akamaized.net/kgs/do/courses/large/b624c052-b587-4ca5-8b99-e81bf8196088.png",
+        "image_thumb": "https://kgs-v2.akamaized.net/kgs/do/courses/thumb/b624c052-b587-4ca5-8b99-e81bf8196088.png"
+    },
+    {
+        "id": 128,
+        "title": "Sociology Optional Hindi Medium",
+        "category_id": 2,
+        "start_at": "2023-12-19",
+        "end_at": "2025-08-31",
+        "image_large": "https://kgs-v2.akamaized.net/kgs/do/courses/large/fdc590c5-4cbe-4f2d-ad49-987ac717a905.jpg",
+        "image_thumb": "https://kgs-v2.akamaized.net/kgs/do/courses/thumb/fdc590c5-4cbe-4f2d-ad49-987ac717a905.jpg"
+    },
+    {
+        "id": 127,
+        "title": "History Optional Hindi Medium (Offline Class)",
+        "category_id": 4,
+        "start_at": null,
+        "end_at": "2025-08-28",
+        "image_large": "https://kgs-v2.akamaized.net/kgs/do/courses/large/fa78506a-c8d2-4b94-9892-40b626e77edb.png",
+        "image_thumb": "https://kgs-v2.akamaized.net/kgs/do/courses/thumb/fa78506a-c8d2-4b94-9892-40b626e77edb.png"
+    },
+    {
+        "id": 126,
+        "title": "Public Administration Optional English Medium",
+        "category_id": 2,
+        "start_at": "2024-01-15",
+        "end_at": "2025-08-31",
+        "image_large": "https://kgs-v2.akamaized.net/kgs/courses/large/f6a94d46-2a1c-4a1f-a310-0bd689ca9f46.jpg",
+        "image_thumb": "https://kgs-v2.akamaized.net/kgs/courses/thumb/f6a94d46-2a1c-4a1f-a310-0bd689ca9f46.jpg"
+    },
+    {
+        "id": 125,
+        "title": "UPSC G.S (Prelims+Mains) Foundation Batch 2024-25 English Medium (Offline Class) Karol Bagh (Batch-I)",
+        "category_id": 5,
+        "start_at": "2023-08-21",
+        "end_at": "2025-08-21",
+        "image_large": "https://kgs-v2.akamaized.net/kgs/do/courses/large/e0591a75-1468-498d-8553-0c42ce487b86.png",
+        "image_thumb": "https://kgs-v2.akamaized.net/kgs/do/courses/thumb/e0591a75-1468-498d-8553-0c42ce487b86.png"
+    },
+    {
+        "id": 124,
+        "title": "UPSC G.S (Prelims+Mains)फाउंडेशन प्रोग्राम  2024-25 हिंदी माध्यम (Offline Class) Mukherjee Nagar Batch-I",
+        "category_id": 5,
+        "start_at": "2023-08-21",
+        "end_at": "2025-12-31",
+        "image_large": "https://kgs-v2.akamaized.net/kgs/do/courses/large/2027d978-09e2-434c-8f80-c49893c87d4e.png",
+        "image_thumb": "https://kgs-v2.akamaized.net/kgs/do/courses/thumb/2027d978-09e2-434c-8f80-c49893c87d4e.png"
+    },
+    {
+        "id": 123,
+        "title": "UPSC Foundation Batch 2024-25",
+        "category_id": 4,
+        "start_at": null,
+        "end_at": "2025-02-21",
+        "image_large": "https://kgs-v2.akamaized.net/kgs/kgs-do/courses/large/74b4b891-c38d-444c-bde9-1ee4f0f41e65.jpg",
+        "image_thumb": "https://kgs.nyc3.digitaloceanspaces.com/courses/thumb/74b4b891-c38d-444c-bde9-1ee4f0f41e65.jpg"
+    },
+    {
+        "id": 122,
+        "title": "SSC CGL (Tier-II) 2023",
+        "category_id": 2,
+        "start_at": null,
+        "end_at": "2023-12-31",
+        "image_large": "https://kgs-v2.akamaized.net/kgs/do/courses/large/7c4bfbb5-5262-4eeb-bb1c-3235aec43916.png",
+        "image_thumb": "https://kgs-v2.akamaized.net/kgs/do/courses/thumb/7c4bfbb5-5262-4eeb-bb1c-3235aec43916.png"
+    },
+    {
+        "id": 121,
+        "title": "UP SI-दरोगा Batch 2023",
+        "category_id": 2,
+        "start_at": null,
+        "end_at": "2025-12-31",
+        "image_large": "https://kgs-v2.akamaized.net/kgs/do/courses/large/e5e88c92-db43-46fb-88b4-70d2d4b8efbd.jpg",
+        "image_thumb": "https://kgs-v2.akamaized.net/kgs/do/courses/thumb/e5e88c92-db43-46fb-88b4-70d2d4b8efbd.jpg"
+    },
+    {
+        "id": 120,
+        "title": "UP Police Constable Batch-2023",
+        "category_id": 2,
+        "start_at": null,
+        "end_at": "2024-08-31",
+        "image_large": "https://kgs-v2.akamaized.net/kgs/do/courses/large/24d38c4f-ac23-428e-b584-4b647168f33b.jpg",
+        "image_thumb": "https://kgs-v2.akamaized.net/kgs/do/courses/thumb/24d38c4f-ac23-428e-b584-4b647168f33b.jpg"
+    },
+    {
+        "id": 119,
+        "title": "Agniveer Vayu (X+Y) + Navy SSR",
+        "category_id": 1,
+        "start_at": null,
+        "end_at": "2024-02-29",
+        "image_large": "https://kgs-v2.akamaized.net/kgs/do/courses/large/29d20c9a-508f-4cc2-a139-246ce95d5a5d.jpg",
+        "image_thumb": "https://kgs-v2.akamaized.net/kgs/do/courses/thumb/29d20c9a-508f-4cc2-a139-246ce95d5a5d.jpg"
+    },
+    {
+        "id": 118,
+        "title": "Maths Foundation 2023-24 by P.K Sir",
+        "category_id": 2,
+        "start_at": null,
+        "end_at": "2024-09-30",
+        "image_large": "https://kgs-v2.akamaized.net/kgs/do/courses/large/d4c6961a-5f49-480a-a8b5-12ff7f50bdeb.jpg",
+        "image_thumb": "https://kgs-v2.akamaized.net/kgs/do/courses/thumb/d4c6961a-5f49-480a-a8b5-12ff7f50bdeb.jpg"
+    },
+    {
+        "id": 116,
+        "title": "History Foundation by Khan Sir",
+        "category_id": 2,
+        "start_at": "2023-07-04",
+        "end_at": "2024-09-30",
+        "image_large": "https://kgs-v2.akamaized.net/kgs/do/courses/large/5ea27e73-3e2e-402c-b1fb-aace12c7444e.jpg",
+        "image_thumb": "https://kgs-v2.akamaized.net/kgs/do/courses/thumb/5ea27e73-3e2e-402c-b1fb-aace12c7444e.jpg"
+    },
+    {
+        "id": 113,
+        "title": "Biology Foundation (Recorded)",
+        "category_id": 3,
+        "start_at": null,
+        "end_at": "2025-05-31",
+        "image_large": "https://kgs-v2.akamaized.net/kgs/do/courses/large/5fe45c3e-e68f-4fd5-88c9-3b61f31b81cd.png",
+        "image_thumb": "https://kgs-v2.akamaized.net/kgs/do/courses/thumb/5fe45c3e-e68f-4fd5-88c9-3b61f31b81cd.png"
+    },
+    {
+        "id": 112,
+        "title": "UPSC (Pre + Mains) Batch-II (Hinglish)",
+        "category_id": 2,
+        "start_at": "2023-07-04",
+        "end_at": "2025-02-28",
+        "image_large": "https://kgs-v2.akamaized.net/kgs/do/courses/large/b6eaee0f-e6cf-463b-b076-0fe20ad28874.png",
+        "image_thumb": "https://kgs-v2.akamaized.net/kgs/do/courses/thumb/b6eaee0f-e6cf-463b-b076-0fe20ad28874.png"
+    },
+    {
+        "id": 111,
+        "title": "SSC ( M.T.S.) Fast Track Batch - 2023",
+        "category_id": 2,
+        "start_at": null,
+        "end_at": "2023-12-31",
+        "image_large": "https://kgs-v2.akamaized.net/kgs/do/courses/large/1ea5d49b-d520-4e8d-aeea-d77d3561747b.png",
+        "image_thumb": "https://kgs-v2.akamaized.net/kgs/do/courses/thumb/1ea5d49b-d520-4e8d-aeea-d77d3561747b.png"
+    },
+    {
+        "id": 110,
+        "title": "Ethics Batch (GS-IV)",
+        "category_id": 2,
+        "start_at": null,
+        "end_at": "2024-06-12",
+        "image_large": "https://kgs-v2.akamaized.net/kgs/do/courses/large/3d3c5e8a-7ddc-479b-84e6-e5f6e39e81da.png",
+        "image_thumb": "https://kgs-v2.akamaized.net/kgs/do/courses/thumb/3d3c5e8a-7ddc-479b-84e6-e5f6e39e81da.png"
+    },
+    {
+        "id": 109,
+        "title": "History Foundation (Recorded)",
+        "category_id": 3,
+        "start_at": null,
+        "end_at": "2024-12-31",
+        "image_large": "https://kgs-v2.akamaized.net/kgs/do/courses/large/d44289d7-5aa4-4a2f-b9ff-ec8d3069a727.png",
+        "image_thumb": "https://kgs-v2.akamaized.net/kgs/do/courses/thumb/d44289d7-5aa4-4a2f-b9ff-ec8d3069a727.png"
+    },
+    {
+        "id": 108,
+        "title": "BPSC (Teacher) Class 9 to 12 by Khan Sir & Team",
+        "category_id": 2,
+        "start_at": null,
+        "end_at": "2023-12-31",
+        "image_large": "https://kgs-v2.akamaized.net/kgs/do/courses/large/64ae8012-bbc9-4ff4-b48c-4685e7c9eb12.png",
+        "image_thumb": "https://kgs-v2.akamaized.net/kgs/do/courses/thumb/64ae8012-bbc9-4ff4-b48c-4685e7c9eb12.png"
+    },
+    {
+        "id": 107,
+        "title": "BPSC (Teacher) Class 1 to 5 by Khan Sir & Team",
+        "category_id": 2,
+        "start_at": null,
+        "end_at": "2023-12-31",
+        "image_large": "https://kgs-v2.akamaized.net/kgs/do/courses/large/feac9f95-7514-4418-9e56-905d98caeeed.png",
+        "image_thumb": "https://kgs-v2.akamaized.net/kgs/do/courses/thumb/feac9f95-7514-4418-9e56-905d98caeeed.png"
+    },
+    {
+        "id": 103,
+        "title": "Physics Foundation Batch (2023)",
+        "category_id": 2,
+        "start_at": null,
+        "end_at": "2024-01-31",
+        "image_large": "https://kgs-v2.akamaized.net/kgs/do/courses/large/d7f8a471-c16e-489e-b22b-77e677b9dfa6.png",
+        "image_thumb": "https://kgs-v2.akamaized.net/kgs/do/courses/thumb/d7f8a471-c16e-489e-b22b-77e677b9dfa6.png"
+    },
+    {
+        "id": 102,
+        "title": "NDA MATHS FOUNDATION BATCH by Prashant Sir",
+        "category_id": 2,
+        "start_at": "2023-05-01",
+        "end_at": "2024-05-30",
+        "image_large": "https://kgs-v2.akamaized.net/kgs/do/courses/large/8bb6a14a-d2da-4e0e-ae64-db5bd0b2078e.png",
+        "image_thumb": "https://kgs-v2.akamaized.net/kgs/do/courses/thumb/8bb6a14a-d2da-4e0e-ae64-db5bd0b2078e.png"
+    },
+    {
+        "id": 101,
+        "title": "Bihar Police (2023)",
+        "category_id": 2,
+        "start_at": null,
+        "end_at": "2024-08-31",
+        "image_large": "https://kgs-v2.akamaized.net/kgs/do/courses/large/bf52165a-45d4-4929-88b1-d4de295038a2.png",
+        "image_thumb": "https://kgs-v2.akamaized.net/kgs/do/courses/thumb/bf52165a-45d4-4929-88b1-d4de295038a2.png"
+    },
+    {
+        "id": 100,
+        "title": "SSC CHSL (Tier-1 & Tier 2) - 2023",
+        "category_id": 2,
+        "start_at": null,
+        "end_at": "2024-05-30",
+        "image_large": "https://kgs-v2.akamaized.net/kgs/do/courses/large/105d63e4-978e-43e1-88f8-6c7e37381aaa.png",
+        "image_thumb": "https://kgs-v2.akamaized.net/kgs/do/courses/thumb/105d63e4-978e-43e1-88f8-6c7e37381aaa.png"
+    },
+    {
+        "id": 99,
+        "title": "UPPSC (Prelims + Mains) Batch - 2024",
+        "category_id": 2,
+        "start_at": null,
+        "end_at": "2025-07-31",
+        "image_large": "https://kgs-v2.akamaized.net/kgs/do/courses/large/98178c95-afdc-4ef8-9115-ca5a6d90dc96.png",
+        "image_thumb": "https://kgs-v2.akamaized.net/kgs/do/courses/thumb/98178c95-afdc-4ef8-9115-ca5a6d90dc96.png"
+    },
+    {
+        "id": 98,
+        "title": "Maths for SSC CGL",
+        "category_id": 2,
+        "start_at": null,
+        "end_at": "2023-12-31",
+        "image_large": "https://kgs-v2.akamaized.net/kgs/do/courses/large/f3efac1b-fb40-4cda-8941-8d4e0710455d.png",
+        "image_thumb": "https://kgs-v2.akamaized.net/kgs/do/courses/thumb/f3efac1b-fb40-4cda-8941-8d4e0710455d.png"
+    },
+    {
+        "id": 97,
+        "title": "Reasoning for SSC CGL",
+        "category_id": 2,
+        "start_at": null,
+        "end_at": "2023-12-31",
+        "image_large": "https://kgs-v2.akamaized.net/kgs/do/courses/large/8ebdb7d9-5ce6-4819-a515-65ec24fe5d9f.png",
+        "image_thumb": "https://kgs-v2.akamaized.net/kgs/do/courses/thumb/8ebdb7d9-5ce6-4819-a515-65ec24fe5d9f.png"
+    },
+    {
+        "id": 96,
+        "title": "English for SSC CGL",
+        "category_id": 2,
+        "start_at": null,
+        "end_at": "2023-12-31",
+        "image_large": "https://kgs-v2.akamaized.net/kgs/do/courses/large/4ca1bb9a-c992-4410-96e2-ceae0dab29f8.png",
+        "image_thumb": "https://kgs-v2.akamaized.net/kgs/do/courses/thumb/4ca1bb9a-c992-4410-96e2-ceae0dab29f8.png"
+    },
+    {
+        "id": 95,
+        "title": "Classroom off-line (BPSC Batch)",
+        "category_id": 2,
+        "start_at": "2025-07-01",
+        "end_at": "2024-12-31",
+        "image_large": "https://kgs-v2.akamaized.net/kgs/do/courses/large/31fe187e-cca6-4a5f-95e5-795ea2ee987c.png",
+        "image_thumb": "https://kgs-v2.akamaized.net/kgs/do/courses/thumb/31fe187e-cca6-4a5f-95e5-795ea2ee987c.png"
+    },
+    {
+        "id": 94,
+        "title": "Chemistry Foundation 2023 by Khan Sir",
+        "category_id": 2,
+        "start_at": null,
+        "end_at": "2023-11-30",
+        "image_large": "https://kgs-v2.akamaized.net/kgs/do/courses/large/292588fd-d531-4ce8-aff9-40c81f838120.png",
+        "image_thumb": "https://kgs-v2.akamaized.net/kgs/do/courses/thumb/292588fd-d531-4ce8-aff9-40c81f838120.png"
+    },
+    {
+        "id": 93,
+        "title": "World Map 2023 by Khan Sir",
+        "category_id": 2,
+        "start_at": null,
+        "end_at": "2023-12-15",
+        "image_large": "https://kgs-v2.akamaized.net/kgs/do/courses/large/3deb975b-7de8-4982-b1f6-3f2eac415997.png",
+        "image_thumb": "https://kgs-v2.akamaized.net/kgs/do/courses/thumb/3deb975b-7de8-4982-b1f6-3f2eac415997.png"
+    },
+    {
+        "id": 92,
+        "title": "NDA-2 2023 | Astra 1.0 by Khan Sir & Team",
+        "category_id": 2,
+        "start_at": null,
+        "end_at": "2023-09-30",
+        "image_large": "https://kgs-v2.akamaized.net/kgs/do/courses/large/08c63f2d-d72b-4a45-82e6-bcd6eedf1ffe.png",
+        "image_thumb": "https://kgs-v2.akamaized.net/kgs/do/courses/thumb/08c63f2d-d72b-4a45-82e6-bcd6eedf1ffe.png"
+    },
+    {
+        "id": 91,
+        "title": "Bihar Daroga 2023 (Classroom off-Line batch)",
+        "category_id": 5,
+        "start_at": null,
+        "end_at": "2024-03-31",
+        "image_large": "https://kgs-v2.akamaized.net/kgs/do/courses/large/70562545-10dd-46c3-8327-a022c4148de8.png",
+        "image_thumb": "https://kgs-v2.akamaized.net/kgs/do/courses/thumb/70562545-10dd-46c3-8327-a022c4148de8.png"
+    },
+    {
+        "id": 90,
+        "title": "Bihar Daroga 2023 (Online)",
+        "category_id": 1,
+        "start_at": null,
+        "end_at": "2024-03-31",
+        "image_large": "https://kgs-v2.akamaized.net/kgs/do/courses/large/87fbf2fb-3170-43dd-9e19-a29cb7dafe96.png",
+        "image_thumb": "https://kgs-v2.akamaized.net/kgs/do/courses/thumb/87fbf2fb-3170-43dd-9e19-a29cb7dafe96.png"
+    },
+    {
+        "id": 89,
+        "title": "Physics Foundation (Recorded)",
+        "category_id": 3,
+        "start_at": null,
+        "end_at": "2024-12-31",
+        "image_large": "https://kgs-v2.akamaized.net/kgs/do/courses/large/5b691313-4658-4a86-ba2b-9b9e51fe51fa.png",
+        "image_thumb": "https://kgs-v2.akamaized.net/kgs/do/courses/thumb/5b691313-4658-4a86-ba2b-9b9e51fe51fa.png"
+    },
+    {
+        "id": 86,
+        "title": "SSC CGL Foundation (Tier-I)",
+        "category_id": 2,
+        "start_at": null,
+        "end_at": "2023-12-15",
+        "image_large": "https://kgs-v2.akamaized.net/kgs/do/courses/large/17afe653-ce3e-44f5-8b08-36818ee9546a.png",
+        "image_thumb": "https://kgs-v2.akamaized.net/kgs/do/courses/thumb/17afe653-ce3e-44f5-8b08-36818ee9546a.png"
+    },
+    {
+        "id": 84,
+        "title": "Economics Foundation (Recorded)",
+        "category_id": 3,
+        "start_at": null,
+        "end_at": "2024-12-31",
+        "image_large": "https://kgs-v2.akamaized.net/kgs/do/courses/large/c519ecff-70ca-43cc-9ed2-483963f89027.png",
+        "image_thumb": "https://kgs-v2.akamaized.net/kgs/do/courses/thumb/c519ecff-70ca-43cc-9ed2-483963f89027.png"
+    },
+    {
+        "id": 83,
+        "title": "NCERT Geography Course 2023",
+        "category_id": 2,
+        "start_at": "2023-11-24",
+        "end_at": "2023-12-31",
+        "image_large": "https://kgs-v2.akamaized.net/kgs/do/courses/large/22375b8c-ad80-4eff-9005-808c61f015b0.png",
+        "image_thumb": "https://kgs-v2.akamaized.net/kgs/do/courses/thumb/22375b8c-ad80-4eff-9005-808c61f015b0.png"
+    },
+    {
+        "id": 82,
+        "title": "MP-PSC (Prelims & Mains) 2023",
+        "category_id": 2,
+        "start_at": null,
+        "end_at": null,
+        "image_large": "https://kgs-v2.akamaized.net/kgs/do/courses/large/ec4165a9-f0e1-4652-a304-3422ea1a2596.png",
+        "image_thumb": "https://kgs-v2.akamaized.net/kgs/do/courses/thumb/ec4165a9-f0e1-4652-a304-3422ea1a2596.png"
+    },
+    {
+        "id": 80,
+        "title": "eco trash",
+        "category_id": 2,
+        "start_at": null,
+        "end_at": "2023-09-27",
+        "image_large": "https://kgs-v2.akamaized.net/kgs/do/courses/large/bd157250-0b69-404f-8e68-c16dc5e112ab.png",
+        "image_thumb": "https://kgs-v2.akamaized.net/kgs/do/courses/thumb/bd157250-0b69-404f-8e68-c16dc5e112ab.png"
+    },
+    {
+        "id": 79,
+        "title": "Biology Foundation 2023",
+        "category_id": 2,
+        "start_at": null,
+        "end_at": null,
+        "image_large": "https://kgs-v2.akamaized.net/kgs/do/courses/large/133a0fdf-c28b-4420-9c63-71bb75c6bc08.png",
+        "image_thumb": "https://kgs-v2.akamaized.net/kgs/do/courses/thumb/133a0fdf-c28b-4420-9c63-71bb75c6bc08.png"
+    },
+    {
+        "id": 78,
+        "title": "Airforce (X+Y) 2023",
+        "category_id": 2,
+        "start_at": null,
+        "end_at": null,
+        "image_large": "https://kgs-v2.akamaized.net/kgs/do/courses/large/e60007d3-7e94-4926-9494-657fb9610936.png",
+        "image_thumb": "https://kgs-v2.akamaized.net/kgs/do/courses/thumb/e60007d3-7e94-4926-9494-657fb9610936.png"
+    },
+    {
+        "id": 74,
+        "title": "CDS 2023",
+        "category_id": 2,
+        "start_at": null,
+        "end_at": "2023-05-05",
+        "image_large": "https://kgs-v2.akamaized.net/kgs/do/courses/large/e6c75bc8-1908-4bae-869f-a3729de9ca7c.png",
+        "image_thumb": "https://kgs-v2.akamaized.net/kgs/do/courses/thumb/e6c75bc8-1908-4bae-869f-a3729de9ca7c.png"
+    },
+    {
+        "id": 73,
+        "title": "English Foundation 2023",
+        "category_id": 2,
+        "start_at": null,
+        "end_at": null,
+        "image_large": "https://kgs-v2.akamaized.net/kgs/do/courses/large/cb4d7927-05b6-4852-a1be-f6a57dd5eb5b.png",
+        "image_thumb": "https://kgs-v2.akamaized.net/kgs/do/courses/thumb/cb4d7927-05b6-4852-a1be-f6a57dd5eb5b.png"
+    },
+    {
+        "id": 68,
+        "title": "NDA-1 Super Fast",
+        "category_id": 2,
+        "start_at": null,
+        "end_at": "2023-05-31",
+        "image_large": "https://kgs-v2.akamaized.net/kgs/do/courses/large/b21a9c15-663f-4eda-97c1-cef193114fa6.png",
+        "image_thumb": "https://kgs-v2.akamaized.net/kgs/do/courses/thumb/b21a9c15-663f-4eda-97c1-cef193114fa6.png"
+    },
+    {
+        "id": 67,
+        "title": "English Foundation Batch - 02",
+        "category_id": 2,
+        "start_at": null,
+        "end_at": "2024-01-31",
+        "image_large": "https://kgs-v2.akamaized.net/kgs/do/courses/large/1a1a4225-0bc4-41cf-96cc-43eb64ebc1ec.png",
+        "image_thumb": "https://kgs-v2.akamaized.net/kgs/do/courses/thumb/1a1a4225-0bc4-41cf-96cc-43eb64ebc1ec.png"
+    },
+    {
+        "id": 66,
+        "title": "Airforce (X+Y) Group | Navy SSR | ICG Navik",
+        "category_id": 2,
+        "start_at": null,
+        "end_at": "2023-12-31",
+        "image_large": "https://kgs-v2.akamaized.net/kgs/do/courses/large/3ea6cbbf-6944-4f7c-836d-823d7d59d3a0.jpeg",
+        "image_thumb": "https://kgs-v2.akamaized.net/kgs/do/courses/thumb/3ea6cbbf-6944-4f7c-836d-823d7d59d3a0.jpeg"
+    },
+    {
+        "id": 65,
+        "title": "Indian Map 2023 (Recorded)",
+        "category_id": 3,
+        "start_at": null,
+        "end_at": "2025-04-24",
+        "image_large": "https://kgs-v2.akamaized.net/kgs/do/courses/large/9d0fd041-c55d-4d42-a45b-24dd944038c9.png",
+        "image_thumb": "https://kgs-v2.akamaized.net/kgs/do/courses/thumb/9d0fd041-c55d-4d42-a45b-24dd944038c9.png"
+    },
+    {
+        "id": 62,
+        "title": "SSC-MTS",
+        "category_id": 2,
+        "start_at": null,
+        "end_at": "2023-06-30",
+        "image_large": "https://kgs-v2.akamaized.net/kgs/do/courses/large/ed7ec8a5-20c9-4be2-8854-572c6748d2f2.png",
+        "image_thumb": "https://kgs-v2.akamaized.net/kgs/do/courses/thumb/ed7ec8a5-20c9-4be2-8854-572c6748d2f2.png"
+    },
+    {
+        "id": 61,
+        "title": "MPPSC Foundation (Prelims + Mains) Batch",
+        "category_id": 2,
+        "start_at": "2023-06-06",
+        "end_at": "2024-11-30",
+        "image_large": "https://kgs-v2.akamaized.net/kgs/do/courses/large/e0da2678-a34e-4fd1-954f-efdf0f29c3dd.png",
+        "image_thumb": "https://kgs-v2.akamaized.net/kgs/do/courses/thumb/e0da2678-a34e-4fd1-954f-efdf0f29c3dd.png"
+    },
+    {
+        "id": 60,
+        "title": "MP-PSC (Prelims)",
+        "category_id": 2,
+        "start_at": null,
+        "end_at": "2023-07-30",
+        "image_large": "https://kgs-v2.akamaized.net/kgs/do/courses/large/9a018b21-55c1-458d-8a48-6d9b850e6f84.jpg",
+        "image_thumb": "https://kgs-v2.akamaized.net/kgs/do/courses/thumb/9a018b21-55c1-458d-8a48-6d9b850e6f84.jpg"
+    },
+    {
+        "id": 57,
+        "title": "Geography (recorded )",
+        "category_id": 3,
+        "start_at": null,
+        "end_at": null,
+        "image_large": "https://kgs-v2.akamaized.net/kgs/do/courses/large/d0fdb41e-6e72-4309-90f4-2c3005e3d101.png",
+        "image_thumb": "https://kgs-v2.akamaized.net/kgs/do/courses/thumb/d0fdb41e-6e72-4309-90f4-2c3005e3d101.png"
+    },
+    {
+        "id": 54,
+        "title": "Biology (Recorded)",
+        "category_id": 3,
+        "start_at": null,
+        "end_at": null,
+        "image_large": "https://kgs-v2.akamaized.net/kgs/do/courses/large/0883c56a-4e87-4886-b26f-e0f76a6d2b0d.png",
+        "image_thumb": "https://kgs-v2.akamaized.net/kgs/do/courses/thumb/0883c56a-4e87-4886-b26f-e0f76a6d2b0d.png"
+    },
+    {
+        "id": 47,
+        "title": "BPSC-PT(Recorded)",
+        "category_id": 3,
+        "start_at": null,
+        "end_at": null,
+        "image_large": "https://kgs-v2.akamaized.net/kgs/do/courses/large/d9352e80-0745-49a5-9152-e02bcb9c69a1.png",
+        "image_thumb": "https://kgs-v2.akamaized.net/kgs/do/courses/thumb/d9352e80-0745-49a5-9152-e02bcb9c69a1.png"
+    },
+    {
+        "id": 46,
+        "title": "SSC-D (Tonic)",
+        "category_id": 3,
+        "start_at": null,
+        "end_at": null,
+        "image_large": "https://kgs-v2.akamaized.net/kgs/do/courses/large/e699c03a-3b3a-4c5d-816d-ade061fe42f6.png",
+        "image_thumb": "https://kgs-v2.akamaized.net/kgs/do/courses/thumb/e699c03a-3b3a-4c5d-816d-ade061fe42f6.png"
+    },
+    {
+        "id": 39,
+        "title": "CHSL ( LDC ) Target 2022",
+        "category_id": 3,
+        "start_at": null,
+        "end_at": null,
+        "image_large": "https://kgs-v2.akamaized.net/kgs/do/courses/large/b1565e86-0911-4c70-8660-fd7c5ae62463.png",
+        "image_thumb": "https://kgs-v2.akamaized.net/kgs/do/courses/thumb/b1565e86-0911-4c70-8660-fd7c5ae62463.png"
+    },
+    {
+        "id": 36,
+        "title": "Airforce + Navy + ICG",
+        "category_id": 3,
+        "start_at": null,
+        "end_at": null,
+        "image_large": "https://kgs-v2.akamaized.net/kgs/do/courses/large/eb20fe0d-e613-4452-8ac2-ac740a8fd89a.png",
+        "image_thumb": "https://kgs-v2.akamaized.net/kgs/do/courses/thumb/eb20fe0d-e613-4452-8ac2-ac740a8fd89a.png"
+    },
+    {
+        "id": 35,
+        "title": "Group D Super Fast",
+        "category_id": 3,
+        "start_at": null,
+        "end_at": null,
+        "image_large": "https://kgs-v2.akamaized.net/kgs/do/courses/large/6888e2dd-52b6-469f-9b48-2aff6ab483e2.jpg",
+        "image_thumb": "https://kgs-v2.akamaized.net/kgs/do/courses/thumb/6888e2dd-52b6-469f-9b48-2aff6ab483e2.jpg"
+    },
+    {
+        "id": 34,
+        "title": "NDA -2 Super Fast",
+        "category_id": 3,
+        "start_at": null,
+        "end_at": null,
+        "image_large": "https://kgs-v2.akamaized.net/kgs/do/courses/large/83a26576-bf1f-4804-9806-16a83d148961.png",
+        "image_thumb": "https://kgs-v2.akamaized.net/kgs/do/courses/thumb/83a26576-bf1f-4804-9806-16a83d148961.png"
+    },
+    {
+        "id": 33,
+        "title": "NDA-1 (2023)",
+        "category_id": 3,
+        "start_at": null,
+        "end_at": null,
+        "image_large": "https://kgs-v2.akamaized.net/kgs/do/courses/large/cdf5bec5-f685-4ae0-80a6-72e23bd0f421.jpg",
+        "image_thumb": "https://kgs-v2.akamaized.net/kgs/do/courses/thumb/cdf5bec5-f685-4ae0-80a6-72e23bd0f421.jpg"
+    },
+    {
+        "id": 32,
+        "title": "Airforce (X + Y)",
+        "category_id": 3,
+        "start_at": null,
+        "end_at": null,
+        "image_large": "https://kgs-v2.akamaized.net/kgs/do/courses/large/c8e867aa-3b7b-4a7f-a134-1ffd435cd819.png",
+        "image_thumb": "https://kgs-v2.akamaized.net/kgs/do/courses/thumb/c8e867aa-3b7b-4a7f-a134-1ffd435cd819.png"
+    },
+    {
+        "id": 30,
+        "title": "Indian Navy SSR",
+        "category_id": 3,
+        "start_at": null,
+        "end_at": null,
+        "image_large": "https://kgs-v2.akamaized.net/kgs/do/courses/large/4c14206d-27ed-4639-aeaf-d7c774d32363.jpg",
+        "image_thumb": "https://kgs-v2.akamaized.net/kgs/do/courses/thumb/4c14206d-27ed-4639-aeaf-d7c774d32363.jpg"
+    },
+    {
+        "id": 25,
+        "title": "English Foundation",
+        "category_id": 3,
+        "start_at": null,
+        "end_at": null,
+        "image_large": "https://kgs-v2.akamaized.net/kgs/do/courses/large/971ca4ef-87de-40f9-8a36-5df279a5cc72.png",
+        "image_thumb": "https://kgs-v2.akamaized.net/kgs/do/courses/thumb/971ca4ef-87de-40f9-8a36-5df279a5cc72.png"
+    },
+    {
+        "id": 23,
+        "title": "Economics",
+        "category_id": 3,
+        "start_at": null,
+        "end_at": null,
+        "image_large": "https://kgs-v2.akamaized.net/kgs/do/courses/large/6989b82d-8cb2-4d8d-b37e-7912c975e839.png",
+        "image_thumb": "https://kgs-v2.akamaized.net/kgs/do/courses/thumb/6989b82d-8cb2-4d8d-b37e-7912c975e839.png"
+    },
+    {
+        "id": 20,
+        "title": "Geography Foundation (Recorded)",
+        "category_id": 3,
+        "start_at": null,
+        "end_at": "2025-01-31",
+        "image_large": "https://kgs-v2.akamaized.net/kgs/do/courses/large/c5d0adc0-e0ed-47ef-aaa6-54c2df2af679.png",
+        "image_thumb": "https://kgs-v2.akamaized.net/kgs/do/courses/thumb/c5d0adc0-e0ed-47ef-aaa6-54c2df2af679.png"
+    },
+    {
+        "id": 19,
+        "title": "Polity Foundation (Recorded)",
+        "category_id": 3,
+        "start_at": null,
+        "end_at": "2025-01-31",
+        "image_large": "https://kgs-v2.akamaized.net/kgs/do/courses/large/733223c7-1026-4bda-9ff1-de565566f2ae.png",
+        "image_thumb": "https://kgs-v2.akamaized.net/kgs/do/courses/thumb/733223c7-1026-4bda-9ff1-de565566f2ae.png"
+    },
+    {
+        "id": 18,
+        "title": "Biology Foundation 2022",
+        "category_id": 3,
+        "start_at": null,
+        "end_at": null,
+        "image_large": "https://kgs-v2.akamaized.net/kgs/do/courses/large/de4f1de0-17e7-4f1c-92f7-8149439772a3.png",
+        "image_thumb": "https://kgs-v2.akamaized.net/kgs/do/courses/thumb/de4f1de0-17e7-4f1c-92f7-8149439772a3.png"
+    },
+    {
+        "id": 17,
+        "title": "Reasoning Batch 02 (2023)",
+        "category_id": 2,
+        "start_at": null,
+        "end_at": "2024-03-01",
+        "image_large": "https://kgs-v2.akamaized.net/kgs/do/courses/large/0f494d47-1fff-428d-b8e7-739ea7a5f2d6.png",
+        "image_thumb": "https://kgs-v2.akamaized.net/kgs/do/courses/thumb/0f494d47-1fff-428d-b8e7-739ea7a5f2d6.png"
+    },
+    {
+        "id": 16,
+        "title": "Physics Foundation",
+        "category_id": 3,
+        "start_at": null,
+        "end_at": "2023-12-31",
+        "image_large": "https://kgs-v2.akamaized.net/kgs/do/courses/large/46605b4d-17ca-4b3f-8ed6-b4362b7fe207.png",
+        "image_thumb": "https://kgs-v2.akamaized.net/kgs/do/courses/thumb/46605b4d-17ca-4b3f-8ed6-b4362b7fe207.png"
+    },
+    {
+        "id": 15,
+        "title": "UPSC (IAS) Hinglish Medium",
+        "category_id": 2,
+        "start_at": null,
+        "end_at": "2024-10-15",
+        "image_large": "https://kgs-v2.akamaized.net/kgs/kgs-do/courses/large/8117b733-462d-4543-b9f9-86c282e3eff8.jpg",
+        "image_thumb": "https://kgs.nyc3.digitaloceanspaces.com/courses/thumb/8117b733-462d-4543-b9f9-86c282e3eff8.jpg"
+    },
+    {
+        "id": 14,
+        "title": "UPSC (IAS) English Medium",
+        "category_id": 2,
+        "start_at": null,
+        "end_at": "2024-10-15",
+        "image_large": "https://kgs-v2.akamaized.net/kgs/do/courses/large/f87dcd59-d326-4540-bfc2-f91aba82ac4e.png",
+        "image_thumb": "https://kgs-v2.akamaized.net/kgs/do/courses/thumb/f87dcd59-d326-4540-bfc2-f91aba82ac4e.png"
+    },
+    {
+        "id": 13,
+        "title": "BPSC-2023 (P.T+MAINS)",
+        "category_id": 1,
+        "start_at": "2023-01-16",
+        "end_at": "2024-12-31",
+        "image_large": "https://kgs-v2.akamaized.net/kgs/do/courses/large/71bb6d26-ba00-42ef-bb30-b91e81cf089c.png",
+        "image_thumb": "https://kgs-v2.akamaized.net/kgs/do/courses/thumb/71bb6d26-ba00-42ef-bb30-b91e81cf089c.png"
+    },
+    {
+        "id": 11,
+        "title": "SSC(CGL) 2022-23",
+        "category_id": 3,
+        "start_at": null,
+        "end_at": null,
+        "image_large": "https://kgs-v2.akamaized.net/kgs/do/courses/large/8784607c-3896-4cc0-84ec-0a58558747f8.png",
+        "image_thumb": "https://kgs-v2.akamaized.net/kgs/do/courses/thumb/8784607c-3896-4cc0-84ec-0a58558747f8.png"
+    },
+    {
+        "id": 10,
+        "title": "SSC GD",
+        "category_id": 3,
+        "start_at": null,
+        "end_at": null,
+        "image_large": "https://kgs-v2.akamaized.net/kgs/do/courses/large/4ea8e022-efff-4d6b-9074-bc7a518b9562.png",
+        "image_thumb": "https://kgs-v2.akamaized.net/kgs/do/courses/thumb/4ea8e022-efff-4d6b-9074-bc7a518b9562.png"
+    },
+    {
+        "id": 9,
+        "title": "SSC CHSL 2023",
+        "category_id": 3,
+        "start_at": null,
+        "end_at": null,
+        "image_large": "https://kgs-v2.akamaized.net/kgs/do/courses/large/5165ed8e-6b93-4858-9033-fa81f191ee68.png",
+        "image_thumb": "https://kgs-v2.akamaized.net/kgs/do/courses/thumb/5165ed8e-6b93-4858-9033-fa81f191ee68.png"
     }
- ]
- 
+]
